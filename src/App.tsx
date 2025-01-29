@@ -10,13 +10,15 @@ const App: React.FC = () => {
   const [darkMode, setDarkMode] = useState<boolean>(false);
 
   return (
-    <div className={`${darkMode ? "dark" : ""}`}>
+    <div
+      className={`${darkMode ? "dark bg-white dark:bg-black" : "bg-white dark:bg-black"}`}
+    >
       <Router>
         <Navbar />
         <div className="flex h-screen w-screen pt-16">
           <Sidebar darkMode={darkMode} setDarkMode={setDarkMode} />
-          <main className="flex-1 bg-gray-100 dark:bg-gray-900 p-8 flex items-center justify-center">
-            <div className="max-w-4xl text-center">
+          <main className="flex-1 bg-white dark:bg-black p-8 flex items-center justify-center">
+            <div className="max-w-4xl text-center text-black dark:text-white">
               <Routes>
                 <Route path="/" element={<Intro />} />
                 <Route path="/home" element={<Home />} />

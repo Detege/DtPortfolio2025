@@ -5,7 +5,7 @@ interface Props {
 
 const Sidebar: React.FC<Props> = ({ darkMode, setDarkMode }) => {
   return (
-    <aside className="w-64 bg-gray-200 dark:bg-gray-800 p-4 flex flex-col justify-between">
+    <aside className="w-64 p-4 flex flex-col justify-between">
       <div className="space-y-4">
         {["All", "Web", "Email", "Editorial", "Social", "Motion", "Print"].map(
           (item) => (
