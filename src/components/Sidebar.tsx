@@ -22,7 +22,7 @@ function Sidebar({
   ];
 
   return (
-    <aside className="w-64 p-4 flex flex-col justify-between text-black dark:text-white">
+    <aside className="w-40 p-4 flex flex-col justify-between text-black dark:text-white">
       <div className="space-y-4 flex flex-col">
         {filters.map((item) => (
           <button

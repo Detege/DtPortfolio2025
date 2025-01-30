@@ -38,11 +38,14 @@ function App() {
             selectedFilters={selectedFilters}
             toggleFilter={toggleFilter}
           />
-          <main className="flex-1 bg-white dark:bg-black p-8 flex items-center justify-center">
+          <main className="flex-1 bg-white dark:bg-black pr-40 flex items-center justify-center">
             <div className="max-w-4xl text-center text-black dark:text-white">
               <Routes>
                 <Route path="/" element={<Intro />} />
-                <Route path="/home" element={<Home />} />
+                <Route
+                  path="/home"
+                  element={<Home selectedFilters={selectedFilters} />}
+                />
                 <Route path="/about" element={<About />} />
               </Routes>
             </div>
