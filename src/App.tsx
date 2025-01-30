@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import { useState } from "react";
+import Footer from "./components/Footer";
 
 function App() {
   const [darkMode, setDarkMode] = useState<boolean>(false);
@@ -40,7 +41,7 @@ function App() {
 
           {/* Main content area: scrolls while sidebar stays fixed */}
           <main className="flex-1 overflow-auto p-8">
-            <div className="max-w-4xl mx-auto text-center text-black dark:text-white">
+            <div className="max-w-7xl mx-auto text-center text-black dark:text-white">
               <Routes>
                 <Route path="/" element={<Intro />} />
                 <Route
@@ -49,6 +50,7 @@ function App() {
                 />
                 <Route path="/about" element={<About />} />
               </Routes>
+              <Footer />
             </div>
           </main>
         </div>

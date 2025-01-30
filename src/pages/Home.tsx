@@ -46,7 +46,7 @@ function Home({ selectedFilters }: Props) {
       );
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-100">
       {filteredRows.map((row, index) => (
         <div key={index} className={getGridClass(row.layout)}>
           {row.images.map((image) => (
