@@ -61,9 +61,9 @@ function Home({ selectedFilters }: Props) {
 function getGridClass(layout: string) {
   switch (layout) {
     case "two-col":
-      return "grid grid-cols-1 md:grid-cols-2 gap-4";
+      return "grid grid-cols-1 md:grid-cols-2 gap-8";
     case "three-col":
-      return "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4";
+      return "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8";
     default:
       return "grid grid-cols-1";
   }
