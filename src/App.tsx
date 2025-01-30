@@ -8,6 +8,22 @@ import { useState } from "react";
 
 function App() {
   const [darkMode, setDarkMode] = useState<boolean>(false);
+  const [selectedFilters, setSelectedFilters] = useState<string[]>(["All"]);
+
+  function toggleFilter(filter: string) {
+    if (filter === "All") {
+      setSelectedFilters(["All"]);
+    } else {
+      setSelectedFilters((prev) => {
+        const isSelected = prev.includes(filter);
+        const newFilters = isSelected
+          ? prev.filter((item) => item !== filter) // Remove if already selected
+          : [...prev.filter((item) => item !== "All"), filter]; // Add & remove "All"
+
+        return newFilters.length === 0 ? ["All"] : newFilters;
+      });
+    }
+  }
 
   return (
     <div
@@ -16,7 +32,12 @@ function App() {
       <Router>
         <Navbar />
         <div className="flex h-screen w-screen pt-16">
-          <Sidebar darkMode={darkMode} setDarkMode={setDarkMode} />
+          <Sidebar
+            darkMode={darkMode}
+            setDarkMode={setDarkMode}
+            selectedFilters={selectedFilters}
+            toggleFilter={toggleFilter}
+          />
           <main className="flex-1 bg-white dark:bg-black p-8 flex items-center justify-center">
             <div className="max-w-4xl text-center text-black dark:text-white">
               <Routes>

@@ -1,22 +1,40 @@
 interface Props {
   darkMode: boolean;
   setDarkMode: React.Dispatch<React.SetStateAction<boolean>>;
+  selectedFilters: string[];
+  toggleFilter: (filter: string) => void;
 }
 
-function Sidebar({ darkMode, setDarkMode }: Props) {
+function Sidebar({
+  darkMode,
+  setDarkMode,
+  selectedFilters,
+  toggleFilter,
+}: Props) {
+  const filters = [
+    "All",
+    "Web",
+    "Email",
+    "Editorial",
+    "Social",
+    "Motion",
+    "Print",
+  ];
+
   return (
     <aside className="w-64 p-4 flex flex-col justify-between text-black dark:text-white">
       <div className="space-y-4 flex flex-col">
-        {["All", "Web", "Email", "Editorial", "Social", "Motion", "Print"].map(
-          (item) => (
-            <button
-              key={item}
-              className="size-min text-left py-1 px-4 rounded-full border-1 border-white dark:border-black hover:border-neutral-300 dark:hover:border-neutral-300 active:border-black dark:active:border-white"
-            >
-              {item}
-            </button>
-          )
-        )}
+        {filters.map((item) => (
+          <button
+            key={item}
+            onClick={() => toggleFilter(item)}
+            className={`size-min text-left py-1 px-4 rounded-full border-1 
+              ${selectedFilters.includes(item) ? "border-black dark:border-white" : "border-white dark:border-black hover:border-neutral-300"}
+              `}
+          >
+            {item}
+          </button>
+        ))}
       </div>
       <div className="flex flex-col">
         <button
