@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "title": "Email Developer - Design Systems",
+    "company": "Bird",
+    "location": "Remote",
+    "period": "Aug 2023 - Present",
+    "details": [
+      [
+        { "text": "Build and maintain ", "bold": false },
+        { "text": "Email Design Systems", "bold": true },
+        { "text": " for clients such as Ikea, Samsung, and Klarna using ", "bold": false },
+        { "text": "HTML, CSS, and Liquid.", "bold": true }
+      ],
+      [
+        { "text": "Leverage the power of robust Design Systems to build emails that are highly compliant with ", "bold": false },
+        { "text": "strict brand guidelines.", "bold": true }
+      ],
+      [
+        { "text": "Ensure ", "bold": false },
+        { "text": "accessibility and flawless rendering", "bold": true },
+        { "text": " across all email clients by rigorously testing with ", "bold": false },
+        { "text": "Email On Acid and Litmus.", "bold": true }
+      ],
+      [
+        { "text": "Automate email design production with ", "bold": false },
+        { "text": "dynamic content and audience segmentation", "bold": true },
+        { "text": " on different ESPs.", "bold": false }
+      ],
+      [
+        { "text": "Improve customer engagement by up to 48%", "bold": true },
+        { "text": " by redesigning existing email templates in Bird Box.", "bold": false }
+      ],
+      [
+        { "text": "Obtain engagement data to ", "bold": false },
+        { "text": "measure design performance", "bold": true },
+        { "text": " using Postman and the Bird Box API.", "bold": false }
+      ]
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Email Designer and Developer",
+    "company": "Lingokids",
+    "location": "Freelance",
+    "period": "Oct 2022 - Mar 2024",
+    "details": [
+      [
+        { "text": "Revamp the designs of different email streams to elevate Lingokids’ messaging on a highly competitive market.", "bold": false }
+      ],
+      [
+        { "text": "Reduce email ", "bold": false },
+        { "text": "production time by 30%", "bold": true },
+        { "text": " by building HTML templates and designing a ", "bold": false },
+        { "text": "streamlined QA process.", "bold": true }
+      ],
+      [
+        { "text": "Ensure high-quality, accessible email campaigns through testing with Braze’s Inbox Vision.", "bold": false }
+      ]
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Digital Designer",
+    "company": "Atomic.ie",
+    "location": "",
+    "period": "May 2021 - Oct 2022",
+    "details": [
+      [
+        { "text": "Work on a wide variety of creative projects for high-profile clients like ", "bold": false },
+        { "text": "Salesforce, Meta, Intercom, Intel, Tableau and Enterprise Ireland", "bold": true },
+        { "text": " among others.", "bold": false }
+      ],
+      [
+        { "text": "Create motion graphics pieces with ", "bold": false },
+        { "text": "After Effects", "bold": true },
+        { "text": " in collaboration with the agency’s videographer for different video projects.", "bold": false }
+      ],
+      [
+        { "text": "Create ", "bold": false },
+        { "text": "editorial designs", "bold": true },
+        { "text": " of great detail and complexity following very strict brand guidelines.", "bold": false }
+      ]
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Graphic Designer",
+    "company": "Indeed.com",
+    "location": "",
+    "period": "Feb 2017 - Feb 2021",
+    "details": [
+      [
+        { "text": "Work on cross-discipline design projects from ", "bold": false },
+        { "text": "direct mail to large format corporeal design", "bold": true },
+        { "text": " including ", "bold": false },
+        { "text": "social media", "bold": true },
+        { "text": " and ", "bold": false },
+        { "text": "online display static and animated", "bold": true },
+        { "text": " advertising pieces.", "bold": false }
+      ],
+      [
+        { "text": "Write JavaScript programs to ", "bold": false },
+        { "text": "automate production of marketing assets,", "bold": true },
+        { "text": " including print materials, digital PDFs and localisation of video advertising.", "bold": false }
+      ],
+      [
+        { "text": "Optimise social media campaign audiences and creative pieces ", "bold": false },
+        { "text": "reducing advertising spending by $1M", "bold": true },
+        { "text": " over a year.", "bold": false }
+      ]
+    ]
+  }
+]

@@ -41,7 +41,7 @@ function App() {
 
           {/* Main content area: scrolls while sidebar stays fixed */}
           <main className="flex-1 p-8">
-            <div className="max-w-7xl mx-auto text-center text-black dark:text-white">
+            <div className="max-w-7xl mx-auto">
               <Routes>
                 <Route path="/" element={<Intro />} />
                 <Route
