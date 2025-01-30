@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+function Navbar() {
   return (
     <nav className="fixed top-0 left-0 w-full text-black dark:text-white">
       <div className="mx-auto flex justify-between items-center py-4 px-8">
@@ -38,6 +38,6 @@ const Navbar = () => {
       </div>
     </nav>
   );
-};
+}
 
 export default Navbar;

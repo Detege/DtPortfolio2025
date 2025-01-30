@@ -3,7 +3,7 @@ interface Props {
   setDarkMode: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
-const Sidebar: React.FC<Props> = ({ darkMode, setDarkMode }) => {
+function Sidebar({ darkMode, setDarkMode }: Props) {
   return (
     <aside className="w-64 p-4 flex flex-col justify-between text-black dark:text-white">
       <div className="space-y-4 flex flex-col">
@@ -28,6 +28,6 @@ const Sidebar: React.FC<Props> = ({ darkMode, setDarkMode }) => {
       </div>
     </aside>
   );
-};
+}
 
 export default Sidebar;

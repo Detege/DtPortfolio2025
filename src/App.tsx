@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import { useState } from "react";
 
-const App: React.FC = () => {
+function App() {
   const [darkMode, setDarkMode] = useState<boolean>(false);
 
   return (
@@ -30,6 +30,6 @@ const App: React.FC = () => {
       </Router>
     </div>
   );
-};
+}
 
 export default App;
