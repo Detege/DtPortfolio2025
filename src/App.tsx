@@ -26,20 +26,21 @@ function App() {
   }
 
   return (
-    <div
-      className={`${darkMode ? "dark bg-white dark:bg-black" : "bg-white dark:bg-black"}`}
-    >
+    <div className={`${darkMode ? "dark" : ""} bg-white dark:bg-black`}>
       <Router>
         <Navbar />
         <div className="flex h-screen w-screen pt-16">
+          {/* Sidebar fixed on the left */}
           <Sidebar
             darkMode={darkMode}
             setDarkMode={setDarkMode}
             selectedFilters={selectedFilters}
             toggleFilter={toggleFilter}
           />
-          <main className="flex-1 bg-white dark:bg-black pr-40 flex items-center justify-center">
-            <div className="max-w-4xl text-center text-black dark:text-white">
+
+          {/* Main content area: scrolls while sidebar stays fixed */}
+          <main className="flex-1 overflow-auto p-8">
+            <div className="max-w-4xl mx-auto text-center text-black dark:text-white">
               <Routes>
                 <Route path="/" element={<Intro />} />
                 <Route
