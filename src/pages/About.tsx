@@ -1,19 +1,10 @@
-import { useState } from "react";
 import experiences from "../copy/Experiences.json";
+import ExperienceSection from "../components/ExperienceSection";
 
 export default function About() {
-  const [expandedIds, setExpandedIds] = useState<number[]>([experiences[0].id]); // First item expanded by default
-
-  function toggleExpand(id: number) {
-    setExpandedIds((prev) =>
-      prev.includes(id) ? prev.filter((item) => item !== id) : [...prev, id]
-    ); // Add/remove id from array
-  }
-
   return (
-    <div className="flex flex-col space-y-18 text-left text-black dark:text-white">
+    <div className="flex flex-col max-w-4xl mx-auto space-y-18 text-left text-black dark:text-white">
       <h1 className="text-2xl">About</h1>
-
       <div className="space-y-6">
         <img src="/src/images/Avatar.jpg" className="size-16" />
         <p>
@@ -22,59 +13,20 @@ export default function About() {
         </p>
       </div>
 
-      <div className="space-y-8">
-        <h2 className="uppercase">Work Experience</h2>
+      <ExperienceSection
+        title="Work Experience"
+        experiences={experiences.filter((exp) => exp.section === "experience")}
+      />
 
-        {experiences.map((exp) => (
-          <div key={exp.id} className="space-y-3 pb-4">
-            {expandedIds.includes(exp.id) ? (
-              // Expanded view
-              <div className="space-y-3">
-                <button
-                  onClick={() => toggleExpand(exp.id)}
-                  className="text-left w-full cursor-pointer hover:text-neutral-500"
-                >
-                  <h3 className="font-bold">{exp.title}</h3>
-                </button>
-                <p>
-                  {exp.company}, {exp.location}
-                  <br />
-                  {exp.period}
-                </p>
-                <ul className="list-disc list-inside space-y-2">
-                  {exp.details.map((sentence, index) => (
-                    <li key={index}>
-                      {sentence.map((segment, i) =>
-                        segment.bold ? (
-                          <strong key={i} className="font-semibold">
-                            {segment.text}
-                          </strong>
-                        ) : (
-                          <span key={i}>{segment.text}</span>
-                        )
-                      )}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : (
-              // Collapsed view
-              <div className="space-y-2">
-                <h3 className="font-bold">
-                  {exp.title}{" "}
-                  <span className="font-normal pl-1">{exp.company}</span>
-                </h3>
-                <button
-                  onClick={() => toggleExpand(exp.id)}
-                  className="underline text-sm"
-                >
-                  See experience
-                </button>
-              </div>
-            )}
-          </div>
-        ))}
-      </div>
+      <ExperienceSection
+        title="Education"
+        experiences={experiences.filter((exp) => exp.section === "education")}
+      />
+
+      <ExperienceSection
+        title="Skills"
+        experiences={experiences.filter((exp) => exp.section === "skills")}
+      />
     </div>
   );
 }
