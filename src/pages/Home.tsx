@@ -1,56 +1,93 @@
 import Works from "../components/Works";
+import WorkTitle from "../components/WorkTitle";
+
+interface ContentItem {
+  id: number;
+  type: "image" | "video" | "iframe";
+  src: string;
+}
+
+interface Section {
+  title: string;
+  tags: string[];
+  rows: { layout: string; content: ContentItem[] }[];
+}
 
 interface Props {
   selectedFilters: string[];
 }
 
 function Home({ selectedFilters }: Props) {
-  const imageRows = [
+  const sections: Section[] = [
     {
-      layout: "full",
-      images: [{ id: 1, src: "/src/images/web1.png", tags: ["Web"] }],
-    },
-    {
-      layout: "full",
-      images: [{ id: 2, src: "/src/images/email1.png", tags: ["Email"] }],
-    },
-    {
-      layout: "two-col",
-      images: [
-        { id: 3, src: "/src/images/editorial1.png", tags: ["Editorial"] },
-        { id: 4, src: "/src/images/editorial2.png", tags: ["Editorial"] },
+      title: "Web Design",
+      tags: ["Web"],
+      rows: [
+        {
+          layout: "full",
+          content: [{ id: 1, type: "image", src: "/src/images/web1.png" }],
+        },
       ],
     },
     {
-      layout: "three-col",
-      images: [
-        { id: 5, src: "/src/images/interface1.jpg", tags: ["Motion"] },
-        { id: 6, src: "/src/images/interface2.png", tags: ["Print"] },
-        { id: 7, src: "/src/images/interface3.png", tags: ["Web", "Email"] },
+      title: "Email Campaigns",
+      tags: ["Email"],
+      rows: [
+        {
+          layout: "full",
+          content: [{ id: 2, type: "image", src: "/src/images/email1.png" }],
+        },
       ],
     },
     {
-      layout: "full",
-      images: [
-        { id: 8, src: "/src/images/print1.png", tags: ["Email", "Print"] },
+      title: "Editorial Work",
+      tags: ["Editorial"],
+      rows: [
+        {
+          layout: "two-col",
+          content: [
+            { id: 3, type: "image", src: "/src/images/editorial1.png" },
+            { id: 4, type: "image", src: "/src/images/editorial2.png" },
+          ],
+        },
+      ],
+    },
+    {
+      title: "Mixed Media",
+      tags: ["Motion", "Print", "Web", "Email"],
+      rows: [
+        {
+          layout: "three-col",
+          content: [
+            { id: 5, type: "video", src: "/src/videos/motion1.mp4" },
+            { id: 6, type: "image", src: "/src/images/print1.png" },
+          ],
+        },
+        {
+          layout: "full",
+          content: [{ id: 7, type: "iframe", src: "https://example.com" }],
+        },
       ],
     },
   ];
 
-  const filteredRows = selectedFilters.includes("All")
-    ? imageRows
-    : imageRows.filter((row) =>
-        row.images.some((img) =>
-          img.tags.some((tag) => selectedFilters.includes(tag))
-        )
+  const filteredSections = selectedFilters.includes("All")
+    ? sections
+    : sections.filter((section) =>
+        section.tags.some((tag) => selectedFilters.includes(tag))
       );
 
   return (
     <div className="space-y-100">
-      {filteredRows.map((row, index) => (
-        <div key={index} className={getGridClass(row.layout)}>
-          {row.images.map((image) => (
-            <Works key={image.id} src={image.src} />
+      {filteredSections.map((section, index) => (
+        <div key={index} className="space-y-30">
+          <WorkTitle title={section.title} />
+          {section.rows.map((row, rowIndex) => (
+            <div key={rowIndex} className={getGridClass(row.layout)}>
+              {row.content.map((item) => (
+                <Works key={item.id} type={item.type} src={item.src} />
+              ))}
+            </div>
           ))}
         </div>
       ))}

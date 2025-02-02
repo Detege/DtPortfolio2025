@@ -1,11 +1,20 @@
 interface Props {
+  type: "image" | "video" | "iframe";
   src: string;
 }
 
-function Works({ src }: Props) {
+function Works({ type, src }: Props) {
   return (
     <div className="w-full flex justify-center">
-      <img src={src} alt="Project" className="w-full h-auto rounded-3xl" />
+      {type === "image" && (
+        <img src={src} alt="Project" className="w-full h-auto rounded-3xl" />
+      )}
+      {type === "video" && (
+        <video src={src} controls className="w-full h-auto rounded-3xl" />
+      )}
+      {type === "iframe" && (
+        <iframe src={src} className="w-full h-auto rounded-3xl"></iframe>
+      )}
     </div>
   );
 }
