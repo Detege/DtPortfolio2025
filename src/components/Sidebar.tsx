@@ -1,3 +1,5 @@
+import { useLocation } from "react-router-dom";
+
 interface Props {
   darkMode: boolean;
   setDarkMode: React.Dispatch<React.SetStateAction<boolean>>;
@@ -20,6 +22,10 @@ function Sidebar({
     "Motion",
     "Print",
   ];
+  const location = useLocation();
+  const hideSidebar =
+    location.pathname === "/" || location.pathname === "/about";
+  if (hideSidebar) return null;
 
   return (
     <aside className="fixed top-16 left-0 w-40 p-4 flex flex-col justify-between text-black dark:text-white">
