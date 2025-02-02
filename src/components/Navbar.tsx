@@ -1,6 +1,9 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 function Navbar() {
+  const location = useLocation();
+  const navbarButtonLabel = location.pathname === "/about" ? "Work" : "About";
+
   return (
     <nav className="fixed top-0 left-0 w-full text-black dark:text-white">
       <div className="mx-auto flex justify-between items-center py-4 px-8">
@@ -28,10 +31,10 @@ function Navbar() {
           </li>
           <li>
             <Link
-              to="/about"
+              to={navbarButtonLabel === "About" ? "/about" : "/home"}
               className="text-black dark:text-white dark:hover:text-white"
             >
-              About
+              {navbarButtonLabel}
             </Link>
           </li>
         </ul>
