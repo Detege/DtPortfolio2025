@@ -1,5 +1,5 @@
 interface Props {
-  type: "image" | "video" | "iframe";
+  type: string;
   src: string;
 }
 
