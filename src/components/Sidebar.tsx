@@ -1,18 +1,11 @@
 import { useLocation } from "react-router-dom";
 
 interface Props {
-  darkMode: boolean;
-  setDarkMode: React.Dispatch<React.SetStateAction<boolean>>;
   selectedFilters: string[];
   toggleFilter: (filter: string) => void;
 }
 
-function Sidebar({
-  darkMode,
-  setDarkMode,
-  selectedFilters,
-  toggleFilter,
-}: Props) {
+function Sidebar({ selectedFilters, toggleFilter }: Props) {
   const filters = [
     "All",
     "Web",
@@ -28,7 +21,7 @@ function Sidebar({
   if (hideSidebar) return null;
 
   return (
-    <aside className="fixed top-16 left-0 w-40 p-4 flex flex-col justify-between text-black dark:text-white">
+    <div>
       <div className="space-y-4 flex flex-col">
         {filters.map((item) => (
           <button
@@ -42,15 +35,7 @@ function Sidebar({
           </button>
         ))}
       </div>
-      <div className="flex flex-col">
-        <button
-          onClick={() => setDarkMode(!darkMode)}
-          className="size-min text-left py-1 px-4 rounded-full border-1 border-white dark:border-black hover:border-neutral-300 dark:hover:border-neutral-300 active:border-black dark:active:border-white"
-        >
-          {darkMode ? "Light\xA0Mode" : "Dark\xA0Mode"}
-        </button>
-      </div>
-    </aside>
+    </div>
   );
 }
 
