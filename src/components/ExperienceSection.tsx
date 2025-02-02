@@ -53,7 +53,8 @@ export default function ExperienceSection({
               <p>
                 {exp.company ? `${exp.company}` : ""}
                 {exp.location ? `, ${exp.location}` : ""}
-                <br />
+                {exp.location ? <br /> : ""}
+
                 {exp.period ? `${exp.period}` : ""}
               </p>
               <ul className="list-disc list-inside space-y-2">

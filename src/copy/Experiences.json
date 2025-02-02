@@ -124,28 +124,16 @@
     "expandDefault": false,
     "section": "experience",
     "title": "Graphic Designer",
-    "company": "Indeed.com",
+    "company": "Zesty",
     "location": "",
-    "period": "Feb 2017 - Feb 2021",
+    "period": "Jun 2014 - Nov 2015",
     "details": [
       [
-        { "text": "Work on cross-discipline design projects from ", "bold": false },
-        { "text": "direct mail to large format corporeal design", "bold": true },
-        { "text": " including ", "bold": false },
-        { "text": "social media", "bold": true },
-        { "text": " and ", "bold": false },
-        { "text": "online display static and animated", "bold": true },
-        { "text": " advertising pieces.", "bold": false }
+        { "text": "Worked on vey fast turnaround requests for online banners and social media advertising campaigns for ", "bold": false },
+        { "text": "Full Tilt Poker", "bold": true }
       ],
       [
-        { "text": "Write JavaScript programs to ", "bold": false },
-        { "text": "automate production of marketing assets,", "bold": true },
-        { "text": " including print materials, digital PDFs and localisation of video advertising.", "bold": false }
-      ],
-      [
-        { "text": "Optimise social media campaign audiences and creative pieces ", "bold": false },
-        { "text": "reducing advertising spending by $1M", "bold": true },
-        { "text": " over a year.", "bold": false }
+        { "text": "Streamlined prduction pocesses to meet the hiper-fast-paced stream of requests.", "bold": false }
       ]
     ]
   },
@@ -156,7 +144,7 @@
     "title": "Front-end Developer (Personal Project)",
     "company": "Formula One Application",
     "location": "",
-    "period": "May 2024 – Present",
+    "period": "May 2024 - Present",
     "details": [
       [
         { "text": "Developed a web application using ", "bold": false },
@@ -185,13 +173,13 @@
     "title": "Web Development Online Courses",
     "company": "",
     "location": "",
-    "period": "2024",
+    "period": "2021 - 2024",
     "details": [
       [
-        { "text": "React 18 Hands-On Tutorial", "bold": false }
+        { "text": "React 18 Hands-On Tutorial, 2024", "bold": false }
       ],
       [
-        { "text": "IGit Ultimate Course", "bold": false }
+        { "text": "Git Ultimate Course, 2024", "bold": false }
       ],
       [
         { "text": "Figma Plugin Development, Figma Learn, 2022", "bold": false }
@@ -208,15 +196,13 @@
     "title": "BA in Visual Communication and Graphic Design",
     "company": "",
     "location": "",
-    "period": "2009 – 2014",
+    "period": "2009 - 2014",
     "details": [
       [
-        { "text": "TU Dublin, BA in Visual Communication (International Exchange)", "bold": false },
-        { "text": "2013 – 2014", "bold": true }
+        { "text": "TU Dublin, BA in Visual Communication (International Exchange), 2013 - 2014", "bold": false }
       ],
       [
-        { "text": "EASD Valencia, BA in Graphic Design", "bold": false },
-        { "text": "2009 – 2013", "bold": true }
+        { "text": "EASD Valencia, BA in Graphic Design, 2009 - 2013", "bold": false }
       ]
        ]
   },
@@ -227,7 +213,7 @@
     "title": "FE in Advertising and Graphic Design",
     "company": "",
     "location": "",
-    "period": "2009 – 2013",
+    "period": "2009 - 2013",
     "details": [
       [
         { "text": "EASD Alicante", "bold": false }
