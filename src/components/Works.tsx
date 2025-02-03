@@ -14,7 +14,7 @@ function Works({ type, src, style }: Props) {
         <video src={src} controls className="w-full h-auto" />
       )}
       {type === "iframe" && (
-        <iframe src={src} className="w-full h-auto"></iframe>
+        <iframe width="412" height="966" src={src}></iframe>
       )}
     </div>
   );

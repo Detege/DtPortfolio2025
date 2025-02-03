@@ -91,8 +91,8 @@
           "content": [
             {
               "type": "iframe",
-              "style": "w-full",
-              "src": "https://example.com"
+              "style": "w-[412px] border-8 border-black rounded-4xl",
+              "src": "https://embed.figma.com/proto/ssDa8QNxakr640c0FaEIdQ/DeepF1?page-id=0%3A1&node-id=1-257&viewport=-52%2C642%2C0.4&scaling=min-zoom&content-scaling=fixed&embed-host=share"
             }
           ]
         }
