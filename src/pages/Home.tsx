@@ -20,8 +20,13 @@ function Home({ selectedFilters }: Props) {
           <WorkTitle title={project.title} />
           {project.rows.map((row, rowIndex) => (
             <div key={rowIndex} className={getGridClass(row.layout)}>
-              {row.content.map((item) => (
-                <Works key={item.id} type={item.type} src={item.src} />
+              {row.content.map((item, itemIndex) => (
+                <Works
+                  key={itemIndex}
+                  type={item.type}
+                  src={item.src}
+                  style={item.style}
+                />
               ))}
             </div>
           ))}

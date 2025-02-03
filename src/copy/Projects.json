@@ -7,8 +7,8 @@
           "layout": "full",
           "content": [
             {
-              "id": 1,
               "type": "image",
+              "style": "w-full",
               "src": "/src/images/web1.png"
             }
           ]
@@ -23,8 +23,8 @@
           "layout": "full",
           "content": [
             {
-              "id": 2,
               "type": "image",
+              "style": "w-full",
               "src": "/src/images/email1.png"
             }
           ]
@@ -32,21 +32,36 @@
       ]
     },
     {
-      "title": "Editorial Work",
-      "tags": ["Editorial"],
+      "title": "Fono Audio",
+      "tags": ["Social", "Print"],
       "rows": [
         {
-          "layout": "two-col",
+          "layout": "one-col",
           "content": [
             {
-              "id": 3,
               "type": "image",
-              "src": "/src/images/editorial1.png"
-            },
+              "style": "w-2/3 rounded-2xl",
+              "src": "/src/images/fonoaudio/FonoAudio01.jpg"
+            }
+          ]
+        },
+        {
+          "layout": "one-col",
+          "content": [
             {
-              "id": 4,
               "type": "image",
-              "src": "/src/images/editorial2.png"
+              "style": "w-2/3",
+              "src": "/src/images/fonoaudio/FonoAudio02.png"
+            }
+          ]
+        },
+        {
+          "layout": "one-col",
+          "content": [
+            {
+              "type": "image",
+              "style": "w-1/3 border border-white rounded-2xl",
+              "src": "/src/images/fonoaudio/FonoAudio03.jpg"
             }
           ]
         }
@@ -60,13 +75,13 @@
           "layout": "three-col",
           "content": [
             {
-              "id": 5,
               "type": "video",
+              "style": "w-full",
               "src": "/src/videos/motion1.mp4"
             },
             {
-              "id": 6,
               "type": "image",
+              "style": "w-full",
               "src": "/src/images/print1.png"
             }
           ]
@@ -75,8 +90,8 @@
           "layout": "full",
           "content": [
             {
-              "id": 7,
               "type": "iframe",
+              "style": "w-full",
               "src": "https://example.com"
             }
           ]
