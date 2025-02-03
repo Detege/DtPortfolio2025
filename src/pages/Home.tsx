@@ -19,10 +19,11 @@ function Home({ selectedFilters }: Props) {
         <div key={index} className="space-y-30">
           <WorkTitle title={project.title} />
           {project.rows.map((row, rowIndex) => (
-            <div key={rowIndex} className={getGridClass(row.layout)}>
+            <div key={rowIndex} className="grid grid-cols-12 gap-8 md:gap-16">
               {row.content.map((item, itemIndex) => (
                 <Works
                   key={itemIndex}
+                  colspan={item.colspan}
                   type={item.type}
                   src={item.src}
                   style={item.style}
@@ -34,17 +35,6 @@ function Home({ selectedFilters }: Props) {
       ))}
     </div>
   );
-}
-
-function getGridClass(layout: string) {
-  switch (layout) {
-    case "two-col":
-      return "grid grid-cols-1 md:grid-cols-2 gap-8";
-    case "three-col":
-      return "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8";
-    default:
-      return "grid grid-cols-1";
-  }
 }
 
 export default Home;
