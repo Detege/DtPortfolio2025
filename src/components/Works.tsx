@@ -12,7 +12,13 @@ function Works({ colspan, type, src, style }: Props) {
         <img src={src} alt="Project" className={`flex ${style} h-auto`} />
       )}
       {type === "video" && (
-        <video src={src} controls className="h-auto w-full" />
+        <video
+          src={src}
+          autoPlay
+          muted
+          loop
+          className={`${style} h-auto w-full`}
+        />
       )}
       {type === "iframe" && (
         <div className={`flex ${style} mx-auto h-auto overflow-hidden`}>

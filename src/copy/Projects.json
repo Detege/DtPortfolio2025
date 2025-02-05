@@ -7,13 +7,13 @@
           "content": [
             {
               "colspan": "lg:col-span-3 lg:col-start-3",
-                "type": "image",
+              "type": "image",
               "style": "rounded-4xl border-6 border-black bg-black",
               "src": "/src/images/lingokids/lingokids01.png"
             },
             {
               "colspan": "lg:col-span-5",
-                "type": "image",
+              "type": "image",
               "style": "rounded-4xl border-6 border-black bg-black",
               "src": "/src/images/lingokids/lingokids02.png"
             }
@@ -23,7 +23,7 @@
           "content": [
             {
               "colspan": "col-span-12",
-                "type": "image",
+              "type": "image",
               "style": "w-full",
               "src": "/src/images/lingokids/lingokids03.png"
             }
@@ -160,6 +160,68 @@
                 "type": "image",
               "style": "rounded-2xl",
               "src": "/src/images/keyboard/keyboard09.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Intercom Social Campaigns and Landing Page",
+      "tags": ["Web", "Motion", "Social"],
+      "rows": [
+        {
+          "content": [
+            {
+              "colspan": "lg:col-span-12",
+              "type": "image",
+              "style": "rounded-2xl",
+              "src": "/src/images/intercom/intercom01.png"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "colspan": "lg:col-span-10 lg:col-start-2",
+              "type": "image",
+              "style": "rounded-4xl border-6 border-black bg-black",
+              "src": "/src/images/intercom/intercom04.png"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "colspan": "lg:col-span-10 lg:col-start-2",
+              "type": "image",
+              "style": "rounded-4xl border-6 border-black bg-black",
+              "src": "/src/images/intercom/intercom05.png"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "colspan": "lg:col-span-10 lg:col-start-2",
+              "type": "image",
+              "style": "rounded-4xl border-6 border-black bg-black",
+              "src": "/src/images/intercom/intercom06.png"
+            }
+          ]
+        },       
+        {
+          "content": [
+            {
+              "colspan": "lg:col-span-6",
+              "type": "image",
+              "style": "rounded-2xl",
+              "src": "/src/images/intercom/intercom02.png"
+            },
+            {
+              "colspan": "lg:col-span-6",
+              "type": "video",
+              "style": "rounded-2xl",
+              "src": "/src/images/intercom/intercom033.mp4"
             }
           ]
         }
