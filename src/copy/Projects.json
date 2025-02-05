@@ -48,7 +48,7 @@
       ]
     },
     {
-      "title": "DeepF1 App",
+      "title": "DeepF1 Application Design",
       "tags": ["Web", "Interface"],
       "rows": [
            {
@@ -56,7 +56,7 @@
             {
               "colspan": "col-span-6 col-start-4",
               "type": "iframe",
-              "style": "w-[412px] rounded-4xl border-8 border-black bg-black",
+              "style": "w-[428px] rounded-4xl border-8 border-black bg-black",
               "src": "https://embed.figma.com/proto/ssDa8QNxakr640c0FaEIdQ/DeepF1?page-id=0%3A1&node-id=1-257&viewport=-52%2C642%2C0.4&scaling=min-zoom&content-scaling=fixed&embed-host=share"
             }
           ]
