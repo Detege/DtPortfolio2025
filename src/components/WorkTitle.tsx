@@ -5,7 +5,7 @@ interface Props {
 function Works({ title }: Props) {
   return (
     <div className="w-full flex justify-center">
-      <h2 className="text-black">{title}</h2>
+      <h2 className="text-black text-3xl">{title}</h2>
     </div>
   );
 }
