@@ -9,8 +9,8 @@ function Sidebar({ selectedFilters, toggleFilter }: Props) {
   const filters = [
     "All",
     "Web",
+    "Interface",
     "Email",
-    "Editorial",
     "Social",
     "Motion",
     "Print",
