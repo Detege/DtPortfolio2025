@@ -260,7 +260,7 @@
         {
           "content": [
             {
-              "colspan": "lg:col-span-10 lg:col-start-2",
+              "colspan": "lg:col-span-8 lg:col-start-3",
               "type": "image",
               "style": "rounded-4xl border-6 border-black bg-black",
               "src": "/src/images/intercom/intercom04.png"
@@ -270,7 +270,7 @@
         {
           "content": [
             {
-              "colspan": "lg:col-span-10 lg:col-start-2",
+              "colspan": "lg:col-span-8 lg:col-start-3",
               "type": "image",
               "style": "rounded-4xl border-6 border-black bg-black",
               "src": "/src/images/intercom/intercom05.png"
@@ -280,7 +280,7 @@
         {
           "content": [
             {
-              "colspan": "lg:col-span-10 lg:col-start-2",
+              "colspan": "lg:col-span-8 lg:col-start-3",
               "type": "image",
               "style": "rounded-4xl border-6 border-black bg-black",
               "src": "/src/images/intercom/intercom06.png"
@@ -436,19 +436,45 @@
         {
           "content": [
             {
-              "colspan": "col-span-10 col-start-2",
+              "colspan": "col-span-6 col-start-4",
                 "type": "image",
-              "style": "",
-              "src": "/src/images/fonoaudio/FonoAudio02.png"
+              "style": "rounded-2xl border border-neutral-200 dark:border-0",
+              "src": "/src/images/fonoaudio/fonocartel.jpg"
             }
           ]
         },
         {
           "content": [
             {
-              "colspan": "col-span-4 col-start-5",
+              "colspan": "col-span-5",
+              "type": "image",
+              "style": "rounded-2xl",
+              "src": "/src/images/fonoaudio/fonoOir.jpg"
+            },
+            {
+              "colspan": "col-span-5 col-start-7",
+              "type": "image",
+              "style": "rounded-2xl border dark:border-0 border-neutral-200",
+              "src": "/src/images/fonoaudio/fonoDescuento.jpg"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "colspan": "col-span-6 col-start-4",
                 "type": "image",
-              "style": "rounded-2xl border border-white",
+              "style": "rounded-2xl border border-neutral-200 dark:border-0",
+              "src": "/src/images/fonoaudio/fonocartel02.jpg"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "colspan": "col-span-6 col-start-4",
+                "type": "image",
+              "style": "rounded-2xl w-full dark:border dark:border-neutral-400",
               "src": "/src/images/fonoaudio/FonoAudio03.jpg"
             }
           ]
