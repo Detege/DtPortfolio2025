@@ -6,7 +6,7 @@ function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 w-full text-black dark:text-white">
-      <div className="mx-auto flex justify-between items-center py-4 px-8">
+      <div className="mx-auto flex items-center justify-between px-8 py-4">
         {/* Left Section - Name */}
         <div>
           <Link

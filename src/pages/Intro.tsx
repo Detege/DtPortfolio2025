@@ -7,10 +7,10 @@ function Intro() {
   const [hovered, setHovered] = useState(false);
 
   return (
-    <div className="flex items-center justify-center grow h-full">
+    <div className="flex h-full grow items-center justify-center">
       <Link
         to="/home"
-        className="bg-black dark:bg-white flex justify-center m-auto size-75 rounded-full z-1"
+        className="z-1 m-auto flex size-75 justify-center rounded-full bg-black dark:bg-white"
         onMouseEnter={() => {
           setHovered(true);
           setText("Start");
@@ -20,21 +20,21 @@ function Intro() {
       </Link>
       <div className="absolute flex gap-2">
         <motion.div
-          className="w-[500px] h-[200px]"
+          className="h-[200px] w-[500px]"
           animate={hovered ? { x: -175, opacity: 1 } : { x: 0, opacity: 0 }}
           transition={{ ease: "circOut", duration: 0.9 }}
         >
-          <h2 className="text-right text-6xl font-medium text-black dark:text-white pb-[60px]">
+          <h2 className="pb-[60px] text-right text-6xl font-medium text-black dark:text-white">
             I'm <br />
             Daniel Terol
           </h2>
         </motion.div>
         <motion.div
-          className="w-[500px] h-[200px]"
+          className="h-[200px] w-[500px]"
           animate={hovered ? { x: 175, opacity: 1 } : { x: 0, opacity: 0 }}
           transition={{ ease: "circOut", duration: 0.9 }}
         >
-          <h2 className="text-left text-6xl font-medium text-black dark:text-white pt-[60px]">
+          <h2 className="pt-[60px] text-left text-6xl font-medium text-black dark:text-white">
             a Visual
             <br />
             Designer

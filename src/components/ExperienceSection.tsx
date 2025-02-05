@@ -46,7 +46,7 @@ export default function ExperienceSection({
             <div className="space-y-3">
               <button
                 onClick={() => toggleExpand(exp.id)}
-                className="text-left w-full cursor-pointer hover:text-neutral-500"
+                className="w-full cursor-pointer text-left hover:text-neutral-500"
               >
                 <h3 className="font-bold">{exp.title}</h3>
               </button>
@@ -57,7 +57,7 @@ export default function ExperienceSection({
 
                 {exp.period ? `${exp.period}` : ""}
               </p>
-              <ul className="list-disc list-inside space-y-2">
+              <ul className="list-inside list-disc space-y-2">
                 {exp.details.map((sentence, index) => (
                   <li key={index}>
                     {sentence.map((segment, i) =>
@@ -77,19 +77,19 @@ export default function ExperienceSection({
             <div className="space-y-2">
               <button
                 onClick={() => toggleExpand(exp.id)}
-                className="text-left w-full"
+                className="w-full text-left"
               >
                 <h3 className="font-bold">
                   {exp.title}
 
-                  <span className="font-normal pl-1">
+                  <span className="pl-1 font-normal">
                     {exp.company ? `${exp.company}` : ""}
                   </span>
                 </h3>
               </button>
               <button
                 onClick={() => toggleExpand(exp.id)}
-                className="underline text-sm cursor-pointer"
+                className="cursor-pointer text-sm underline"
               >
                 See {exp.section}
               </button>

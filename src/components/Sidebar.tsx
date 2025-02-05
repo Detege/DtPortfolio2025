@@ -22,12 +22,12 @@ function Sidebar({ selectedFilters, toggleFilter }: Props) {
 
   return (
     <div>
-      <div className="space-y-4 flex flex-col">
+      <div className="flex flex-col space-y-4">
         {filters.map((item) => (
           <button
             key={item}
             onClick={() => toggleFilter(item)}
-            className={`size-min text-left py-1 px-4 rounded-full border-1 transition delay-0 duration-500 ease-in-out
+            className={`size-min rounded-full border-1 px-4 py-1 text-left transition delay-0 duration-500 ease-in-out
               ${selectedFilters.includes(item) ? "border-black dark:border-white" : "border-white dark:border-black hover:border-neutral-300"}
               `}
           >

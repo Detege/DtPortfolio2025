@@ -3,7 +3,7 @@ import ExperienceSection from "../components/ExperienceSection";
 
 export default function About() {
   return (
-    <div className="flex flex-col max-w-4xl mx-auto space-y-18 text-left text-black dark:text-white">
+    <div className="mx-auto flex max-w-4xl flex-col space-y-18 text-left text-black dark:text-white">
       <h1 className="text-2xl">About</h1>
       <div className="space-y-6">
         <img src="/src/images/Avatar.jpg" className="size-16" />

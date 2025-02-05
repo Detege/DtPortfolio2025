@@ -30,8 +30,8 @@ function App() {
     <div className={`${darkMode ? "dark" : ""} bg-white dark:bg-black`}>
       <Router>
         <Navbar />
-        <div className="flex overflow-auto h-screen w-screen pt-16">
-          <aside className="fixed top-16 left-0 w-40 p-4 flex flex-col justify-between text-black dark:text-white">
+        <div className="flex h-screen w-screen overflow-auto pt-16">
+          <aside className="fixed top-16 left-0 flex w-40 flex-col justify-between p-4 text-black dark:text-white">
             <Sidebar
               selectedFilters={selectedFilters}
               toggleFilter={toggleFilter}
@@ -39,7 +39,7 @@ function App() {
             <div className="fixed bottom-6">
               <button
                 onClick={() => setDarkMode(!darkMode)}
-                className="size-min text-left py-1 px-4 rounded-full border-1 border-white dark:border-black hover:border-neutral-300 dark:hover:border-neutral-300 active:border-black dark:active:border-white"
+                className="size-min rounded-full border-1 border-white px-4 py-1 text-left hover:border-neutral-300 active:border-black dark:border-black dark:hover:border-neutral-300 dark:active:border-white"
               >
                 {darkMode ? "Light\xA0Mode" : "Dark\xA0Mode"}
               </button>
@@ -48,7 +48,7 @@ function App() {
 
           {/* Main content area: scrolls while sidebar stays fixed */}
           <main className="flex flex-1 p-8">
-            <div className="flex-1 max-w-7xl mx-auto">
+            <div className="mx-auto max-w-7xl flex-1">
               <Routes>
                 <Route path="/" element={<Intro />} />
                 <Route
