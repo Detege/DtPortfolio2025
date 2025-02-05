@@ -454,6 +454,95 @@
           ]
         }
       ]
+    },
+    {
+      "title": "Indeed Brand",
+      "tags": ["Print"],
+      "rows": [
+       
+        {
+          "content": [
+            {
+              "colspan": "col-span-10 col-start-2",
+                "type": "image",
+              "style": "rounded-2xl",
+              "src": "/src/images/indeedBrand/indeedShirt02.jpg"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "colspan": "col-span-10 col-start-2",
+                "type": "image",
+              "style": "rounded-2xl",
+              "src": "/src/images/indeedBrand/indeedAmbassador.png"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "colspan": "col-span-6 col-start-4",
+                "type": "image",
+              "style": "rounded-4xl border-6 border-black bg-black",
+              "src": "/src/images/indeedBrand/indeedEmail.jpg"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "colspan": "col-span-12",
+                "type": "image",
+              "style": "",
+              "src": "/src/images/indeedBrand/indeedStickers.png"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "colspan": "col-span-12",
+                "type": "image",
+              "style": "rounded-2xl",
+              "src": "/src/images/indeedBrand/indeedBus01.png"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "colspan": "col-span-4",
+                "type": "image",
+              "style": "rounded-2xl",
+              "src": "/src/images/indeedBrand/indeedBus02.jpg"
+            },
+            {
+              "colspan": "col-span-4",
+                "type": "image",
+              "style": "rounded-2xl",
+              "src": "/src/images/indeedBrand/indeedBus03.png"
+            },
+            {
+              "colspan": "col-span-4",
+                "type": "image",
+              "style": "rounded-2xl",
+              "src": "/src/images/indeedBrand/indeedBus04.jpg"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "colspan": "col-span-6 col-start-4",
+                "type": "image",
+              "style": "rounded-2xl",
+              "src": "/src/images/indeedBrand/indeedShirt01.png"
+            }
+          ]
+        }
+      ]
     }
   ]
   
