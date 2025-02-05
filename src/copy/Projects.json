@@ -306,6 +306,120 @@
       ]
     },
     {
+      "title": "Indeed Events",
+      "tags": ["Print"],
+      "rows": [
+        {
+          "content": [
+            {
+              "colspan": "lg:col-span-12",
+              "type": "image",
+              "style": "rounded-2xl",
+              "src": "/src/images/indeed/6col-Antwerp02.jpg"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "colspan": "lg:col-span-6",
+              "type": "image",
+              "style": "rounded-2xl",
+              "src": "/src/images/indeed/4col-Antwerp05.jpg"
+            },
+            {
+              "colspan": "lg:col-span-6",
+              "type": "image",
+              "style": "rounded-2xl",
+              "src": "/src/images/indeed/4col-Antwerp04.jpg"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "colspan": "lg:col-span-10 lg:col-start-2",
+              "type": "image",
+              "style": "rounded-2xl",
+              "src": "/src/images/indeed/8col-AntwerpCards.jpg"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "colspan": "lg:col-span-6",
+              "type": "image",
+              "style": "rounded-2xl",
+              "src": "/src/images/indeed/4col-Antwerp06.jpg"
+            },
+            {
+              "colspan": "lg:col-span-6",
+              "type": "image",
+              "style": "rounded-2xl",
+              "src": "/src/images/indeed/6col-Antwerp01.jpg"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "colspan": "lg:col-span-6 lg:col-start-4",
+              "type": "image",
+              "style": "rounded-2xl",
+              "src": "/src/images/indeed/4col-Antwerp07.jpg"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "colspan": "lg:col-span-8 lg:col-start-3",
+              "type": "image",
+              "style": "rounded-2xl",
+              "src": "/src/images/indeed/6col-TradeMunich01.jpg"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "colspan": "lg:col-span-8 lg:col-start-3",
+              "type": "image",
+              "style": "rounded-2xl",
+              "src": "/src/images/indeed/6col-TradeMunich02.jpg"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "colspan": "lg:col-span-12",
+              "type": "image",
+              "style": "rounded-2xl",
+              "src": "/src/images/indeed/8col-Bangalore03.jpg"
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "colspan": "lg:col-span-6",
+              "type": "image",
+              "style": "rounded-2xl",
+              "src": "/src/images/indeed/4col-Bangalore01.jpg"
+            },
+            {
+              "colspan": "lg:col-span-6",
+              "type": "image",
+              "style": "rounded-2xl",
+              "src": "/src/images/indeed/4col-Bangalore02.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "title": "Fono Audio",
       "tags": ["Social", "Print"],
       "rows": [
