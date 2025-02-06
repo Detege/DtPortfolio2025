@@ -35,8 +35,10 @@ function App() {
             <Sidebar
               selectedFilters={selectedFilters}
               toggleFilter={toggleFilter}
+              darkMode={darkMode}
+              setDarkMode={setDarkMode}
             />
-            <div className="fixed bottom-6">
+            <div className="fixed bottom-6 hidden md:block">
               <button
                 onClick={() => setDarkMode(!darkMode)}
                 className="size-min rounded-full border-1 border-white px-4 py-1 text-left hover:border-neutral-300 active:border-black dark:border-black dark:hover:border-neutral-300 dark:active:border-white"
