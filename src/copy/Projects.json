@@ -6,15 +6,15 @@
         {
           "content": [
             {
-              "colspan": "lg:col-span-3 lg:col-start-3",
+              "colspan": "col-span-4 col-start-2 lg:col-span-3 lg:col-start-3",
               "type": "image",
-              "style": "rounded-4xl border-6 border-black bg-black",
+              "style": "rounded-2xl md:rounded-4xl border-6 border-black bg-black",
               "src": "/src/images/lingokids/lingokids01.png"
             },
             {
-              "colspan": "lg:col-span-5",
+              "colspan": "hidden md:block lg:col-span-5",
               "type": "image",
-              "style": "rounded-4xl border-6 border-black bg-black",
+              "style": "rounded-2xl md:rounded-4xl border-6 border-black bg-black",
               "src": "/src/images/lingokids/lingokids02.png"
             }
           ]
@@ -22,7 +22,7 @@
         {
           "content": [
             {
-              "colspan": "col-span-12",
+              "colspan": "col-span-6 lg:col-span-10 lg:col-start-2 xl:col-span-12",
               "type": "image",
               "style": "w-full",
               "src": "/src/images/lingokids/lingokids03.png"
@@ -32,15 +32,15 @@
         {
             "content": [
               {
-                "colspan": "lg:col-span-5 lg:col-start-3",
+                "colspan": "hidden md:block xl:col-span-5 xl:col-start-3",
                 "type": "image",
-                "style": "rounded-4xl border-6 border-black bg-black",
+                "style": "rounded-2xl md:rounded-4xl border-6 border-black bg-black",
                 "src": "/src/images/lingokids/lingokids04.png"
               },
               {
-                "colspan": "col-span-3",
+                "colspan": "col-span-4 col-start-2 md:col-span-3",
                 "type": "image",
-                "style": "rounded-4xl border-6 border-black bg-black",
+                "style": "rounded-2xl md:rounded-4xl border-6 border-black bg-black",
                 "src": "/src/images/lingokids/lingokids05.png"
               }
             ]
@@ -54,10 +54,28 @@
            {
           "content": [
             {
-              "colspan": "col-span-6 col-start-4",
+              "colspan": "hidden md:block col-span-6 col-start-4",
               "type": "iframe",
-              "style": "w-[428px] rounded-4xl border-8 border-black bg-black",
+              "style": "w-[428px] rounded-2xl md:rounded-4xl border-8 border-black bg-black",
               "src": "https://embed.figma.com/proto/ssDa8QNxakr640c0FaEIdQ/DeepF1?page-id=0%3A1&node-id=1-257&viewport=-52%2C642%2C0.4&scaling=min-zoom&content-scaling=fixed&embed-host=share"
+            },
+            {
+              "colspan": "md:hidden col-span-4 col-start-2",
+              "type": "image",
+              "style": "rounded-2xl md:rounded-4xl border-6 border-black bg-black",
+              "src": "/src/images/deepF1/f101.png"
+            },
+            {
+              "colspan": "md:hidden col-span-4 col-start-2",
+              "type": "image",
+              "style": "rounded-2xl md:rounded-4xl border-6 border-black bg-black",
+              "src": "/src/images/deepF1/f102.png"
+            },
+            {
+              "colspan": "md:hidden col-span-4 col-start-2",
+              "type": "image",
+              "style": "rounded-2xl md:rounded-4xl border-6 border-black bg-black",
+              "src": "/src/images/deepF1/f103.png"
             }
           ]
         }
@@ -70,9 +88,9 @@
         {
           "content": [
             {
-              "colspan": "col-span-12",
+              "colspan": "col-span-6 lg:col-span-10 lg:col-start-2 xl:col-span-12",
                 "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/keyboard/keyboard01.jpg"
             }
           ]
@@ -80,9 +98,9 @@
         {
           "content": [
             {
-              "colspan": "col-span-10 col-start-2",
+              "colspan": "col-span-6 md:col-span-10 md:col-start-2",
               "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/keyboard/keyboardInter01.jpg"
             }
           ]
@@ -90,9 +108,9 @@
         {
           "content": [
             {
-              "colspan": "col-span-10 col-start-2",
+              "colspan": "col-span-6 md:col-span-10 md:col-start-2",
               "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/keyboard/keyboardInter02.jpg"
             }
           ]
@@ -100,9 +118,9 @@
         {
           "content": [
             {
-              "colspan": "col-span-10 col-start-2",
+              "colspan": "col-span-6 md:col-span-10 md:col-start-2",
               "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/keyboard/keyboardInter03.jpg"
             }
           ]
@@ -110,9 +128,9 @@
         {
           "content": [
             {
-              "colspan": "col-span-10 col-start-2",
+              "colspan": "col-span-6 md:col-span-10 md:col-start-2",
                 "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/keyboard/keyboard00.jpg"
             }
           ]
@@ -120,9 +138,9 @@
         {
           "content": [
             {
-              "colspan": "col-span-12",
+              "colspan": "col-span-6 lg:col-span-10 lg:col-start-2 xl:col-span-12",
                 "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/keyboard/keyboard03.png"
             }
           ]
@@ -130,9 +148,9 @@
         {
           "content": [
             {
-              "colspan": "col-span-12",
+              "colspan": "col-span-6 lg:col-span-10 lg:col-start-2 xl:col-span-12",
                 "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/keyboard/keyboard04.png"
             }
           ]
@@ -140,9 +158,9 @@
         {
           "content": [
             {
-              "colspan": "col-span-8 col-start-3",
+              "colspan": "col-span-6 md:col-span-8 md:col-start-3",
                 "type": "image",
-              "style": "w-full rounded-2xl",
+              "style": "w-full rounded-xl md:rounded-2xl",
               "src": "/src/images/keyboard/keyboard05.gif"
             }
           ]
@@ -150,21 +168,21 @@
         {
           "content": [
             {
-              "colspan": "col-span-4",
+              "colspan": "col-span-4 col-start-2 md:col-start-1",
                 "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/keyboard/keyboard06.jpg"
             },
             {
-              "colspan": "col-span-4",
+              "colspan": "col-span-4 col-start-2 md:col-start-5",
                 "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/keyboard/keyboard07.jpg"
             },
             {
-              "colspan": "col-span-4",
+              "colspan": "col-span-4 col-start-2 md:col-start-9",
                 "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/keyboard/keyboard08.jpg"
             }
           ]
@@ -172,9 +190,9 @@
         {
           "content": [
             {
-              "colspan": "col-span-8 col-start-3",
+              "colspan": "col-span-6 md:col-span-8 md:col-start-3",
                 "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/keyboard/keyboard09.jpg"
             }
           ]
@@ -188,9 +206,9 @@
         {
           "content": [
             {
-              "colspan": "lg:col-span-12",
+              "colspan": "col-span-6 lg:col-span-10 lg:col-start-2 xl:col-span-12",
               "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/ei/8col-EIevent.jpg"
             }
           ]
@@ -198,9 +216,9 @@
         {
           "content": [
             {
-              "colspan": "lg:col-span-12",
+              "colspan": "col-span-6 lg:col-span-10 lg:col-start-2 xl:col-span-12",
               "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/ei/8col-EIevent-Booklet.jpg"
             }
           ]
@@ -208,9 +226,9 @@
         {
           "content": [
             {
-              "colspan": "lg:col-span-8 lg:col-start-3",
+              "colspan": "col-span-4 col-start-2 xl:col-span-8 xl:col-start-3",
               "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/ei/4col-EIevent-press-booklet.jpg"
             }
           ]
@@ -218,9 +236,9 @@
         {
           "content": [
             {
-              "colspan": "lg:col-span-12",
+              "colspan": "col-span-6 lg:col-span-10 lg:col-start-2 xl:col-span-12",
               "type": "image",
-              "style": "rounded-2xl w-full",
+              "style": "rounded-xl md:rounded-2xl w-full",
               "src": "/src/images/ei/4col-Eievent-press.jpg"
             }
           ]
@@ -228,15 +246,15 @@
         {
           "content": [
             {
-              "colspan": "lg:col-span-6",
+              "colspan": "col-span-4 col-start-2 md:col-span-6",
               "type": "video",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/ei/4col-EIevent-motion.mp4"
             },
             {
-              "colspan": "lg:col-span-6",
+              "colspan": "col-span-4 col-start-2 md:col-span-6",
               "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/ei/4Col-EIevent.jpg"
             }
           ]
@@ -250,9 +268,9 @@
         {
           "content": [
             {
-              "colspan": "lg:col-span-12",
+              "colspan": "col-span-6 lg:col-span-10 lg:col-start-2 xl:col-span-12",
               "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/intercom/intercom01.png"
             }
           ]
@@ -260,9 +278,9 @@
         {
           "content": [
             {
-              "colspan": "lg:col-span-8 lg:col-start-3",
+              "colspan": "col-span-4 col-start-2 xl:col-span-8 xl:col-start-3",
               "type": "image",
-              "style": "rounded-4xl border-6 border-black bg-black",
+              "style": "rounded-2xl md:rounded-4xl border-6 border-black bg-black",
               "src": "/src/images/intercom/intercom04.png"
             }
           ]
@@ -270,9 +288,9 @@
         {
           "content": [
             {
-              "colspan": "lg:col-span-8 lg:col-start-3",
+              "colspan": "col-span-4 col-start-2 xl:col-span-8 xl:col-start-3",
               "type": "image",
-              "style": "rounded-4xl border-6 border-black bg-black",
+              "style": "rounded-2xl md:rounded-4xl border-6 border-black bg-black",
               "src": "/src/images/intercom/intercom05.png"
             }
           ]
@@ -280,9 +298,9 @@
         {
           "content": [
             {
-              "colspan": "lg:col-span-8 lg:col-start-3",
+              "colspan": "col-span-4 col-start-2 xl:col-span-8 xl:col-start-3",
               "type": "image",
-              "style": "rounded-4xl border-6 border-black bg-black",
+              "style": "rounded-2xl md:rounded-4xl border-6 border-black bg-black",
               "src": "/src/images/intercom/intercom06.png"
             }
           ]
@@ -290,15 +308,15 @@
         {
           "content": [
             {
-              "colspan": "lg:col-span-6",
+              "colspan": "col-span-4 col-start-2 xl:col-span-6",
               "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/intercom/intercom02.png"
             },
             {
-              "colspan": "lg:col-span-6",
+              "colspan": "col-span-4 col-start-2 xl:col-span-6",
               "type": "video",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/intercom/intercom033.mp4"
             }
           ]
@@ -312,9 +330,9 @@
         {
           "content": [
             {
-              "colspan": "lg:col-span-12",
+              "colspan": "col-span-6 lg:col-span-11 lg:col-start-2 xl:col-span-12",
               "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/indeed/6col-Antwerp02.jpg"
             }
           ]
@@ -322,15 +340,15 @@
         {
           "content": [
             {
-              "colspan": "lg:col-span-6",
+              "colspan": "col-span-4 col-start-2 xl:col-span-6",
               "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/indeed/4col-Antwerp05.jpg"
             },
             {
-              "colspan": "lg:col-span-6",
+              "colspan": "col-span-4 col-start-2 xl:col-span-6",
               "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/indeed/4col-Antwerp04.jpg"
             }
           ]
@@ -338,9 +356,9 @@
         {
           "content": [
             {
-              "colspan": "lg:col-span-10 lg:col-start-2",
+              "colspan": "col-span-6 xl:col-span-10 xl:col-start-2",
               "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/indeed/8col-AntwerpCards.jpg"
             }
           ]
@@ -348,15 +366,15 @@
         {
           "content": [
             {
-              "colspan": "lg:col-span-6",
+              "colspan": "col-span-4 col-start-2 xl:col-span-6",
               "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/indeed/4col-Antwerp06.jpg"
             },
             {
-              "colspan": "lg:col-span-6",
+              "colspan": "col-span-4 col-start-2 xl:col-span-6",
               "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/indeed/6col-Antwerp01.jpg"
             }
           ]
@@ -364,9 +382,9 @@
         {
           "content": [
             {
-              "colspan": "lg:col-span-6 lg:col-start-4",
+              "colspan": "col-span-4 col-start-2 xl:col-span-6 xl:col-start-4",
               "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/indeed/4col-Antwerp07.jpg"
             }
           ]
@@ -374,9 +392,9 @@
         {
           "content": [
             {
-              "colspan": "lg:col-span-8 lg:col-start-3",
+              "colspan": "col-span-6 xl:col-span-8 xl:col-start-3",
               "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/indeed/6col-TradeMunich01.jpg"
             }
           ]
@@ -384,9 +402,9 @@
         {
           "content": [
             {
-              "colspan": "lg:col-span-8 lg:col-start-3",
+              "colspan": "col-span-6 xl:col-span-8 xl:col-start-3",
               "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/indeed/6col-TradeMunich02.jpg"
             }
           ]
@@ -394,9 +412,9 @@
         {
           "content": [
             {
-              "colspan": "lg:col-span-12",
+              "colspan": "col-span-6 lg:col-span-10 lg:col-start-2 xl:col-span-12",
               "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/indeed/8col-Bangalore03.jpg"
             }
           ]
@@ -404,15 +422,15 @@
         {
           "content": [
             {
-              "colspan": "lg:col-span-6",
+              "colspan": "col-span-4 col-start-2  xl:col-span-6",
               "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/indeed/4col-Bangalore01.jpg"
             },
             {
-              "colspan": "lg:col-span-6",
+              "colspan": "col-span-4 col-start-2  xl:col-span-6",
               "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/indeed/4col-Bangalore02.jpg"
             }
           ]
@@ -426,9 +444,9 @@
         {
           "content": [
             {
-              "colspan": "col-span-10 col-start-2",
+              "colspan": "col-span-6 md:col-span-10 md:col-start-2",
                 "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/fonoaudio/FonoAudio01.jpg"
             }
           ]
@@ -436,9 +454,9 @@
         {
           "content": [
             {
-              "colspan": "col-span-6 col-start-4",
+              "colspan": "col-span-6 md:col-start-4",
                 "type": "image",
-              "style": "rounded-2xl border border-neutral-200 dark:border-0",
+              "style": "rounded-xl md:rounded-2xl border border-neutral-200 dark:border-0",
               "src": "/src/images/fonoaudio/fonocartel.jpg"
             }
           ]
@@ -446,15 +464,15 @@
         {
           "content": [
             {
-              "colspan": "col-span-5",
+              "colspan": "col-span-4 col-start-2 md:col-span-5",
               "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/fonoaudio/fonoOir.jpg"
             },
             {
-              "colspan": "col-span-5 col-start-7",
+              "colspan": "col-span-4 col-start-2 md:col-span-5 md:col-start-7",
               "type": "image",
-              "style": "rounded-2xl border dark:border-0 border-neutral-200",
+              "style": "rounded-xl md:rounded-2xl border dark:border-0 border-neutral-200",
               "src": "/src/images/fonoaudio/fonoDescuento.jpg"
             }
           ]
@@ -462,9 +480,9 @@
         {
           "content": [
             {
-              "colspan": "col-span-6 col-start-4",
+              "colspan": "col-span-6 md:col-start-4",
                 "type": "image",
-              "style": "rounded-2xl border border-neutral-200 dark:border-0",
+              "style": "rounded-xl md:rounded-2xl border border-neutral-200 dark:border-0",
               "src": "/src/images/fonoaudio/fonocartel02.jpg"
             }
           ]
@@ -472,9 +490,9 @@
         {
           "content": [
             {
-              "colspan": "col-span-6 col-start-4",
+              "colspan": "col-span-4 col-start-2 md:col-span-6 md:col-start-4",
                 "type": "image",
-              "style": "rounded-2xl w-full dark:border dark:border-neutral-400",
+              "style": "rounded-xl md:rounded-2xl w-full dark:border dark:border-neutral-400",
               "src": "/src/images/fonoaudio/FonoAudio03.jpg"
             }
           ]
@@ -489,9 +507,9 @@
         {
           "content": [
             {
-              "colspan": "col-span-10 col-start-2",
+              "colspan": "col-span-6 md:col-span-10 md:col-start-2",
                 "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/indeedBrand/indeedShirt02.jpg"
             }
           ]
@@ -499,9 +517,9 @@
         {
           "content": [
             {
-              "colspan": "col-span-10 col-start-2",
+              "colspan": "col-span-6 md:col-span-10 md:col-start-2",
                 "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/indeedBrand/indeedAmbassador.png"
             }
           ]
@@ -509,9 +527,9 @@
         {
           "content": [
             {
-              "colspan": "col-span-6 col-start-4",
+              "colspan": "col-span-6 md:col-start-4",
                 "type": "image",
-              "style": "rounded-4xl border-6 border-black bg-black",
+              "style": "rounded-2xl md:rounded-4xl border-6 border-black bg-black",
               "src": "/src/images/indeedBrand/indeedEmail.jpg"
             }
           ]
@@ -519,7 +537,7 @@
         {
           "content": [
             {
-              "colspan": "col-span-12",
+              "colspan": "col-span-6 lg:col-span-10 lg:col-start-2 xl:col-span-12",
                 "type": "image",
               "style": "",
               "src": "/src/images/indeedBrand/indeedStickers.png"
@@ -529,9 +547,9 @@
         {
           "content": [
             {
-              "colspan": "col-span-12",
+              "colspan": "col-span-6 lg:col-span-10 lg:col-start-2 xl:col-span-12",
                 "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/indeedBrand/indeedBus01.png"
             }
           ]
@@ -539,21 +557,21 @@
         {
           "content": [
             {
-              "colspan": "col-span-4",
+              "colspan": "col-span-4 col-start-2 md:col-start-1",
                 "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/indeedBrand/indeedBus02.jpg"
             },
             {
-              "colspan": "col-span-4",
+              "colspan": "col-span-4 col-start-2 md:col-start-5",
                 "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/indeedBrand/indeedBus03.png"
             },
             {
-              "colspan": "col-span-4",
+              "colspan": "col-span-4 col-start-2 md:col-start-9",
                 "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/indeedBrand/indeedBus04.jpg"
             }
           ]
@@ -561,9 +579,9 @@
         {
           "content": [
             {
-              "colspan": "col-span-6 col-start-4",
+              "colspan": "col-span-4 col-start-2 md:col-span-6 md:col-start-4",
                 "type": "image",
-              "style": "rounded-2xl",
+              "style": "rounded-xl md:rounded-2xl",
               "src": "/src/images/indeedBrand/indeedShirt01.png"
             }
           ]

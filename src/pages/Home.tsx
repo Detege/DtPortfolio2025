@@ -19,7 +19,10 @@ function Home({ selectedFilters }: Props) {
         <div key={index} className="space-y-30">
           <WorkTitle title={project.title} />
           {project.rows.map((row, rowIndex) => (
-            <div key={rowIndex} className="grid grid-cols-12 gap-8 md:gap-16">
+            <div
+              key={rowIndex}
+              className="grid grid-cols-6 md:grid-cols-12 gap-8 lg:gap-16"
+            >
               {row.content.map((item, itemIndex) => (
                 <Works
                   key={itemIndex}

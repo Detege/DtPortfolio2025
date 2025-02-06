@@ -47,8 +47,8 @@ function App() {
           </aside>
 
           {/* Main content area: scrolls while sidebar stays fixed */}
-          <main className="flex flex-1 p-8">
-            <div className="mx-auto max-w-7xl flex-1">
+          <main className="flex lg:flex-1 p-4 md:p-8">
+            <div className="mx-auto max-w-7xl lg:flex-1">
               <Routes>
                 <Route path="/" element={<Intro />} />
                 <Route
