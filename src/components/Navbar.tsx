@@ -5,13 +5,13 @@ function Navbar() {
   const navbarButtonLabel = location.pathname === "/about" ? "Work" : "About";
 
   return (
-    <nav className="fixed top-0 left-0 w-full text-black dark:text-white">
-      <div className="mx-auto flex items-center justify-between px-8 py-4">
+    <nav className="md:fixed md:top-0 md:left-0 w-full text-black dark:text-white">
+      <div className="mx-auto flex items-center justify-between px-4 md:px-8 py-4">
         {/* Left Section - Name */}
         <div>
           <Link
             to="/home"
-            className="text-black dark:text-white dark:hover:text-white"
+            className={`${navbarButtonLabel === "About" ? "hidden md:block" : "block"} text-black dark:text-white dark:hover:text-white`}
           >
             Daniel Terol
           </Link>
@@ -24,7 +24,7 @@ function Navbar() {
               href="https://www.linkedin.com/in/daniel-terol/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-black dark:text-white dark:hover:text-white"
+              className={`${navbarButtonLabel === "About" ? "hidden md:block" : "block"} text-black dark:text-white dark:hover:text-white`}
             >
               Contact
             </a>
