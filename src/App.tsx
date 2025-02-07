@@ -30,7 +30,7 @@ function App() {
     <div className={`${darkMode ? "dark" : ""} bg-white dark:bg-black`}>
       <Router>
         <Navbar />
-        <div className="flex h-screen w-screen overflow-auto pt-16">
+        <div className="flex h-screen w-screen overflow-auto md:pt-16">
           <aside className="fixed top-16 left-0 flex w-40 flex-col justify-between p-4 text-black dark:text-white">
             <Sidebar
               selectedFilters={selectedFilters}
@@ -49,8 +49,8 @@ function App() {
           </aside>
 
           {/* Main content area: scrolls while sidebar stays fixed */}
-          <main className="flex lg:flex-1 p-4 md:p-8">
-            <div className="mx-auto max-w-7xl lg:flex-1">
+          <main className="flex flex-1 p-4 md:p-8">
+            <div className="mx-auto max-w-7xl">
               <Routes>
                 <Route path="/" element={<Intro />} />
                 <Route

@@ -4,6 +4,10 @@ function Navbar() {
   const location = useLocation();
   const navbarButtonLabel = location.pathname === "/about" ? "Work" : "About";
 
+  if (location.pathname === "/") {
+    return null;
+  }
+
   return (
     <nav className="md:fixed md:top-0 md:left-0 w-full text-black dark:text-white">
       <div className="mx-auto flex items-center justify-between px-4 md:px-8 py-4">
