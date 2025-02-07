@@ -34,7 +34,7 @@ function Sidebar({
     <div className="relative">
       {/* Mobile Sidebar Toggle */}
       <button
-        className="fixed top-4 left-4 z-50 p-2 rounded-md bg-gray-800 text-white dark:bg-gray-200 dark:text-black md:hidden"
+        className="fixed top-4 left-4 z-50 p-2 rounded-md text-black dark:text-white md:hidden"
         onClick={() => setIsOpen(!isOpen)}
       >
         {isOpen ? <X size={24} /> : <Menu size={24} />}
