@@ -6,7 +6,7 @@ export default function About() {
     <div className="mx-auto flex max-w-4xl flex-col space-y-18 text-left text-black dark:text-white">
       <h1 className="text-2xl">About</h1>
       <div className="space-y-6">
-        <img src="/src/images/Avatar.jpg" className="size-16" />
+        <img src="/Avatar.jpg" className="size-16" />
         <p>
           I’m Daniel Terol, a Visual Designer driven by a passion for crafting
           creative solutions that inspire action and deliver impact.
