@@ -6,19 +6,12 @@ function Intro() {
   const [text, setText] = useState("Hello!");
   const [hovered, setHovered] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
-  const [showText, setShowText] = useState(false);
 
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < 768);
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-
-  useEffect(() => {
-    if (isMobile) {
-      setTimeout(() => setShowText(true), 500); // Delayed animation trigger
-    }
-  }, [isMobile]);
 
   return (
     <div className="flex h-full grow items-center justify-center relative">
