@@ -1,6 +1,7 @@
 [
     {
-      "title": "Lingokids Emails",
+      "title": "Lingokids",
+      "subheader": "Email templates and modules for Different Marketing Initiatives",
       "tags": ["Email"],
       "rows": [
         {
@@ -51,7 +52,8 @@
       ]
     },
     {
-      "title": "DeepF1 Application Design",
+      "title": "DeepF1",
+      "subheader": "Application Design for a Deep Dive into F1 Race Data",
       "tags": ["Web", "Interface"],
       "rows": [
            {
@@ -87,6 +89,7 @@
     },
     {
       "title": "My Bespoke Mechanical Keyboard",
+      "subheader": "Custom Input Interface: Data-Driven Keyboard Design",
       "tags": ["Interface"],
       "rows": [
         {
@@ -193,6 +196,7 @@
     },
     {
       "title": "Enterprise Ireland",
+      "subheader": "Cross-Media Campaigns for EI Initiatives",
       "tags": ["Print", "Motion", "Brand"],
       "rows": [
         {
@@ -259,7 +263,8 @@
       ]
     },
     {
-      "title": "Intercom Social Campaigns and Landing Page",
+      "title": "Intercom",
+      "subheader": "Employer Brand Campaigns",
       "tags": ["Web", "Motion", "Social"],
       "rows": [
         {
@@ -327,6 +332,7 @@
     },
     {
       "title": "Indeed Events",
+      "subheader": "Environmental & Event Materials Design",
       "tags": ["Print", "Brand"],
       "rows": [
         {
@@ -450,6 +456,7 @@
     },
     {
       "title": "Fono Audio",
+      "subheader": "Brand & Marketing Design for a Local Hearing Center",
       "tags": ["Social", "Print", "Brand"],
       "rows": [
         {
@@ -517,6 +524,7 @@
     },
     {
       "title": "Indeed Brand",
+      "subheader": "Design Solutions for Indeed's Brand Growth",
       "tags": ["Print", "Brand", "Email"],
       "rows": [
        

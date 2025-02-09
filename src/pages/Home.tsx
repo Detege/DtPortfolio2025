@@ -17,7 +17,7 @@ function Home({ selectedFilters }: Props) {
     <div className="space-y-100">
       {filteredProjects.map((project, index) => (
         <div key={index} className="space-y-30">
-          <WorkTitle title={project.title} />
+          <WorkTitle title={project.title} subheader={project.subheader} />
           {project.rows
             .filter(
               (row) =>
