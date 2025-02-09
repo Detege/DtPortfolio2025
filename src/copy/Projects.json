@@ -1,56 +1,72 @@
 [
-    {
-      "title": "Lingokids",
-      "subheader": "Email templates and modules for Different Marketing Initiatives",
-      "tags": ["Email"],
-      "rows": [
-        {
-          "tags": ["Email"],
-          "content": [
-            {
-              "colspan": "col-span-4 col-start-2 md:col-span-3 md:col-start-3",
-              "type": "image",
-              "style": "rounded-2xl md:rounded-4xl border-6 border-black bg-black",
-              "src": "../../public/lingokids/lingokids01.png"
-            },
-            {
-              "colspan": "hidden md:block md:col-span-5",
-              "type": "image",
-              "style": "rounded-2xl md:rounded-4xl border-6 border-black bg-black",
-              "src": "/lingokids/lingokids02.png"
-            }
-          ]
-        },
-        {
-          "tags": ["Email"],
-          "content": [
-            {
-              "colspan": "col-span-6 md:col-span-10 md:col-start-2 xl:col-span-12",
-              "type": "image",
-              "style": "w-full",
-              "src": "/lingokids/lingokids03.png"
-            }
-          ]
-        },
-        {
-          "tags": ["Email"],
-          "content": [
-            {
-              "colspan": "hidden md:block md:col-span-5 md:col-start-3",
-              "type": "image",
-              "style": "rounded-2xl md:rounded-4xl border-6 border-black bg-black",
-              "src": "/lingokids/lingokids04.png"
-            },
-            {
-              "colspan": "col-span-4 col-start-2 md:col-span-3 md:col-start-8",
-              "type": "image",
-              "style": "rounded-2xl md:rounded-4xl border-6 border-black bg-black",
-              "src": "/lingokids/lingokids05.png"
-            }
-          ]
-        }
-      ]
-    },
+  {
+    "title": "Enterprise Ireland",
+    "subheader": "Cross-Media Campaigns for EI Initiatives",
+    "tags": ["Print", "Motion", "Brand"],
+    "rows": [
+      {
+        "tags": ["Brand"],
+        "content": [
+          {
+            "colspan": "col-span-6 md:col-span-10 md:col-start-2 xl:col-span-12",
+            "type": "image",
+            "style": "rounded-xl md:rounded-2xl",
+            "src": "/ei/8col-EIevent.jpg"
+          }
+        ]
+      },
+      {
+        "tags": ["Print", "Brand"],
+        "content": [
+          {
+            "colspan": "col-span-6 md:col-span-10 md:col-start-2 xl:col-span-12",
+            "type": "image",
+            "style": "rounded-xl md:rounded-2xl",
+            "src": "/ei/8col-EIevent-Booklet.jpg"
+          }
+        ]
+      },
+      {
+        "tags": ["Print", "Brand"],
+        "content": [
+          {
+            "colspan": "col-span-4 col-start-2 md:col-span-6 md:col-start-4",
+            "type": "image",
+            "style": "rounded-xl md:rounded-2xl",
+            "src": "/ei/4col-EIevent-press-booklet.jpg"
+          }
+        ]
+      },
+      {
+        "tags": ["Motion", "Brand"],
+        "content": [
+          {
+            "colspan": "col-span-6 md:col-span-10 md:col-start-2 xl:col-span-12",
+            "type": "image",
+            "style": "rounded-xl md:rounded-2xl w-full",
+            "src": "/ei/4col-Eievent-press.jpg"
+          }
+        ]
+      },
+      {
+        "tags": ["Motion", "Brand"],
+        "content": [
+          {
+            "colspan": "col-span-4 col-start-2 md:col-span-5 md:col-start-2 xl:col-span-6",
+            "type": "video",
+            "style": "rounded-xl md:rounded-2xl",
+            "src": "/ei/4col-EIevent-motion.mp4"
+          },
+          {
+            "colspan": "col-span-4 col-start-2 md:col-span-5 md:col-start-7 xl:col-span-6",
+            "type": "image",
+            "style": "rounded-xl md:rounded-2xl",
+            "src": "/ei/4Col-EIevent.jpg"
+          }
+        ]
+      }
+    ]
+  },
     {
       "title": "DeepF1",
       "subheader": "Application Design for a Deep Dive into F1 Race Data",
@@ -195,68 +211,52 @@
       ]
     },
     {
-      "title": "Enterprise Ireland",
-      "subheader": "Cross-Media Campaigns for EI Initiatives",
-      "tags": ["Print", "Motion", "Brand"],
+      "title": "Lingokids",
+      "subheader": "Email templates and modules for Different Marketing Initiatives",
+      "tags": ["Email"],
       "rows": [
         {
-          "tags": ["Brand"],
+          "tags": ["Email"],
           "content": [
             {
-              "colspan": "col-span-6 md:col-span-10 md:col-start-2 xl:col-span-12",
+              "colspan": "col-span-4 col-start-2 md:col-span-3 md:col-start-3",
               "type": "image",
-              "style": "rounded-xl md:rounded-2xl",
-              "src": "/ei/8col-EIevent.jpg"
-            }
-          ]
-        },
-        {
-          "tags": ["Print", "Brand"],
-          "content": [
-            {
-              "colspan": "col-span-6 md:col-span-10 md:col-start-2 xl:col-span-12",
-              "type": "image",
-              "style": "rounded-xl md:rounded-2xl",
-              "src": "/ei/8col-EIevent-Booklet.jpg"
-            }
-          ]
-        },
-        {
-          "tags": ["Print", "Brand"],
-          "content": [
-            {
-              "colspan": "col-span-4 col-start-2 md:col-span-6 md:col-start-4",
-              "type": "image",
-              "style": "rounded-xl md:rounded-2xl",
-              "src": "/ei/4col-EIevent-press-booklet.jpg"
-            }
-          ]
-        },
-        {
-          "tags": ["Motion", "Brand"],
-          "content": [
-            {
-              "colspan": "col-span-6 md:col-span-10 md:col-start-2 xl:col-span-12",
-              "type": "image",
-              "style": "rounded-xl md:rounded-2xl w-full",
-              "src": "/ei/4col-Eievent-press.jpg"
-            }
-          ]
-        },
-        {
-          "tags": ["Motion", "Brand"],
-          "content": [
-            {
-              "colspan": "col-span-4 col-start-2 md:col-span-5 md:col-start-2 xl:col-span-6",
-              "type": "video",
-              "style": "rounded-xl md:rounded-2xl",
-              "src": "/ei/4col-EIevent-motion.mp4"
+              "style": "rounded-2xl md:rounded-4xl border-6 border-black bg-black",
+              "src": "../../public/lingokids/lingokids01.png"
             },
             {
-              "colspan": "col-span-4 col-start-2 md:col-span-5 md:col-start-7 xl:col-span-6",
+              "colspan": "hidden md:block md:col-span-5",
               "type": "image",
-              "style": "rounded-xl md:rounded-2xl",
-              "src": "/ei/4Col-EIevent.jpg"
+              "style": "rounded-2xl md:rounded-4xl border-6 border-black bg-black",
+              "src": "/lingokids/lingokids02.png"
+            }
+          ]
+        },
+        {
+          "tags": ["Email"],
+          "content": [
+            {
+              "colspan": "col-span-6 md:col-span-10 md:col-start-2 xl:col-span-12",
+              "type": "image",
+              "style": "w-full",
+              "src": "/lingokids/lingokids03.png"
+            }
+          ]
+        },
+        {
+          "tags": ["Email"],
+          "content": [
+            {
+              "colspan": "hidden md:block md:col-span-5 md:col-start-3",
+              "type": "image",
+              "style": "rounded-2xl md:rounded-4xl border-6 border-black bg-black",
+              "src": "/lingokids/lingokids04.png"
+            },
+            {
+              "colspan": "col-span-4 col-start-2 md:col-span-3 md:col-start-8",
+              "type": "image",
+              "style": "rounded-2xl md:rounded-4xl border-6 border-black bg-black",
+              "src": "/lingokids/lingokids05.png"
             }
           ]
         }
