@@ -6,12 +6,14 @@
         {
           "content": [
             {
+              "tags": ["Email"],
               "colspan": "col-span-4 col-start-2 md:col-span-3 md:col-start-3",
               "type": "image",
               "style": "rounded-2xl md:rounded-4xl border-6 border-black bg-black",
-              "src": "/lingokids/lingokids01.png"
+              "src": "../../public/lingokids/lingokids01.png"
             },
             {
+              "tags": ["Email"],
               "colspan": "hidden md:block md:col-span-5",
               "type": "image",
               "style": "rounded-2xl md:rounded-4xl border-6 border-black bg-black",
@@ -22,6 +24,7 @@
         {
           "content": [
             {
+              "tags": ["Email"],
               "colspan": "col-span-6 md:col-span-10 md:col-start-2 xl:col-span-12",
               "type": "image",
               "style": "w-full",
@@ -32,12 +35,14 @@
         {
             "content": [
               {
+                "tags": ["Email"],
                 "colspan": "hidden md:block md:col-span-5 md:col-start-3",
                 "type": "image",
                 "style": "rounded-2xl md:rounded-4xl border-6 border-black bg-black",
                 "src": "/lingokids/lingokids04.png"
               },
               {
+                "tags": ["Email"],
                 "colspan": "col-span-4 col-start-2 md:col-span-3 md:col-start-8",
                 "type": "image",
                 "style": "rounded-2xl md:rounded-4xl border-6 border-black bg-black",
@@ -54,24 +59,28 @@
            {
           "content": [
             {
+              "tags": ["Web", "Interface"],
               "colspan": "hidden lg:block col-span-6 col-start-4",
               "type": "iframe",
               "style": "w-[428px] rounded-4xl border-8 border-black bg-black",
               "src": "https://embed.figma.com/proto/ssDa8QNxakr640c0FaEIdQ/DeepF1?page-id=0%3A1&node-id=1-257&viewport=-52%2C642%2C0.4&scaling=min-zoom&content-scaling=fixed&embed-host=share"
             },
             {
+              "tags": ["Web", "Interface"],
               "colspan": "lg:hidden col-span-4 col-start-2 md:col-start-1",
               "type": "image",
               "style": "rounded-2xl border-6 border-black bg-black",
               "src": "/deepF1/f101.png"
             },
             {
+              "tags": ["Web", "Interface"],
               "colspan": "lg:hidden col-span-4 col-start-2 md:col-start-5",
               "type": "image",
               "style": "rounded-2xl border-6 border-black bg-black",
               "src": "/deepF1/f102.png"
             },
             {
+              "tags": ["Web", "Interface"],
               "colspan": "lg:hidden col-span-4 col-start-2 md:col-start-9",
               "type": "image",
               "style": "rounded-2xl border-6 border-black bg-black",
@@ -88,6 +97,7 @@
         {
           "content": [
             {
+              "tags": ["Interface"],
               "colspan": "col-span-6 md:col-span-10 md:col-start-2 xl:col-span-12",
                 "type": "image",
               "style": "rounded-xl md:rounded-2xl",
@@ -98,6 +108,7 @@
         {
           "content": [
             {
+              "tags": ["Interface"],
               "colspan": "col-span-6 md:col-span-8 md:col-start-3",
               "type": "image",
               "style": "rounded-xl md:rounded-2xl",
@@ -108,6 +119,7 @@
         {
           "content": [
             {
+              "tags": ["Interface"],
               "colspan": "col-span-6 md:col-span-8 md:col-start-3",
                 "type": "image",
               "style": "rounded-xl md:rounded-2xl",
@@ -118,6 +130,7 @@
         {
           "content": [
             {
+              "tags": ["Interface"],
               "colspan": "col-span-6 md:col-span-10 md:col-start-2 xl:col-span-12",
                 "type": "image",
               "style": "rounded-xl md:rounded-2xl",
@@ -128,6 +141,7 @@
         {
           "content": [
             {
+              "tags": ["Interface"],
               "colspan": "col-span-6 md:col-span-10 md:col-start-2 xl:col-span-12",
                 "type": "image",
               "style": "rounded-xl md:rounded-2xl",
@@ -138,6 +152,7 @@
         {
           "content": [
             {
+              "tags": ["Interface"],
               "colspan": "col-span-6 md:col-span-8 md:col-start-3",
                 "type": "image",
               "style": "w-full rounded-xl md:rounded-2xl",
@@ -148,18 +163,21 @@
         {
           "content": [
             {
+              "tags": ["Interface"],
               "colspan": "col-span-4 col-start-2 md:col-start-3 xl:col-start-1",
                 "type": "image",
               "style": "rounded-xl md:rounded-2xl",
               "src": "/keyboard/keyboard06.jpg"
             },
             {
+              "tags": ["Interface"],
               "colspan": "col-span-4 col-start-2 md:col-start-7 xl:col-start-5",
                 "type": "image",
               "style": "rounded-xl md:rounded-2xl",
               "src": "/keyboard/keyboard07.jpg"
             },
             {
+              "tags": ["Interface"],
               "colspan": "col-span-4 col-start-2 md:hidden xl:block xl:col-start-9",
                 "type": "image",
               "style": "rounded-xl md:rounded-2xl",
@@ -170,6 +188,7 @@
         {
           "content": [
             {
+              "tags": ["Interface"],
               "colspan": "col-span-6 md:col-span-8 md:col-start-3",
                 "type": "image",
               "style": "rounded-xl md:rounded-2xl",
@@ -181,11 +200,12 @@
     },
     {
       "title": "Enterprise Ireland",
-      "tags": ["Print", "Motion"],
+      "tags": ["Print", "Motion", "Brand"],
       "rows": [
         {
           "content": [
             {
+              "tags": ["Brand"],
               "colspan": "col-span-6 md:col-span-10 md:col-start-2 xl:col-span-12",
               "type": "image",
               "style": "rounded-xl md:rounded-2xl",
@@ -196,6 +216,7 @@
         {
           "content": [
             {
+              "tags": ["Print", "Brand"],
               "colspan": "col-span-6 md:col-span-10 md:col-start-2 xl:col-span-12",
               "type": "image",
               "style": "rounded-xl md:rounded-2xl",
@@ -206,6 +227,7 @@
         {
           "content": [
             {
+              "tags": ["Print", "Brand"],
               "colspan": "col-span-4 col-start-2 md:col-span-6 md:col-start-4",
               "type": "image",
               "style": "rounded-xl md:rounded-2xl",
@@ -216,6 +238,7 @@
         {
           "content": [
             {
+              "tags": ["Motion", "Brand"],
               "colspan": "col-span-6 md:col-span-10 md:col-start-2 xl:col-span-12",
               "type": "image",
               "style": "rounded-xl md:rounded-2xl w-full",
@@ -226,12 +249,14 @@
         {
           "content": [
             {
+              "tags": ["Motion", "Brand"],
               "colspan": "col-span-4 col-start-2 md:col-span-5 md:col-start-2 xl:col-span-6",
               "type": "video",
               "style": "rounded-xl md:rounded-2xl",
               "src": "/ei/4col-EIevent-motion.mp4"
             },
             {
+              "tags": ["Brand"],
               "colspan": "col-span-4 col-start-2 md:col-span-5 md:col-start-7 xl:col-span-6",
               "type": "image",
               "style": "rounded-xl md:rounded-2xl",
@@ -248,6 +273,7 @@
         {
           "content": [
             {
+              "tags": ["Social"],
               "colspan": "col-span-6 md:col-span-10 md:col-start-2 xl:col-span-12",
               "type": "image",
               "style": "rounded-xl md:rounded-2xl",
@@ -258,6 +284,7 @@
         {
           "content": [
             {
+              "tags": ["Web"],
               "colspan": "col-span-4 col-start-2 md:col-span-8 md:col-start-3",
               "type": "image",
               "style": "rounded-2xl md:rounded-4xl border-6 border-black bg-black",
@@ -268,6 +295,7 @@
         {
           "content": [
             {
+              "tags": ["Web"],
               "colspan": "col-span-4 col-start-2 md:col-span-8 md:col-start-3",
               "type": "image",
               "style": "rounded-2xl md:rounded-4xl border-6 border-black bg-black",
@@ -278,6 +306,7 @@
         {
           "content": [
             {
+              "tags": ["Web"],
               "colspan": "col-span-4 col-start-2 md:col-span-8 md:col-start-3",
               "type": "image",
               "style": "rounded-2xl md:rounded-4xl border-6 border-black bg-black",
@@ -288,12 +317,14 @@
         {
           "content": [
             {
+              "tags": ["Social"],
               "colspan": "col-span-4 col-start-2 md:col-span-5 md:col-start-2 xl:col-span-6",
               "type": "image",
               "style": "rounded-xl md:rounded-2xl",
               "src": "/intercom/intercom02.png"
             },
             {
+              "tags": ["Motion", "Social"],
               "colspan": "col-span-4 col-start-2 md:col-span-5 md:col-start-7 xl:col-span-6",
               "type": "video",
               "style": "rounded-xl md:rounded-2xl",
@@ -305,11 +336,12 @@
     },
     {
       "title": "Indeed Events",
-      "tags": ["Print"],
+      "tags": ["Print", "Brand"],
       "rows": [
         {
           "content": [
             {
+              "tags": ["Print", "Brand"],
               "colspan": "col-span-6 md:col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-12",
               "type": "image",
               "style": "rounded-xl md:rounded-2xl",
@@ -320,12 +352,14 @@
         {
           "content": [
             {
+              "tags": ["Print", "Brand"],
               "colspan": "col-span-4 col-start-2 md:col-span-5 md:col-start-2 xl:col-span-6",
               "type": "image",
               "style": "rounded-xl md:rounded-2xl",
               "src": "/indeed/4col-Antwerp05.jpg"
             },
             {
+              "tags": ["Print", "Brand"],
               "colspan": "col-span-4 col-start-2 md:col-span-5 md:col-start-7 xl:col-span-6",
               "type": "image",
               "style": "rounded-xl md:rounded-2xl",
@@ -336,6 +370,7 @@
         {
           "content": [
             {
+              "tags": ["Print", "Brand"],
               "colspan": "col-span-6 md:col-span-10 md:col-start-2",
               "type": "image",
               "style": "rounded-xl md:rounded-2xl",
@@ -346,12 +381,14 @@
         {
           "content": [
             {
+              "tags": ["Print", "Brand"],
               "colspan": "col-span-4 col-start-2 md:col-span-5 md:col-start-2 xl:col-span-6",
               "type": "image",
               "style": "rounded-xl md:rounded-2xl",
               "src": "/indeed/4col-Antwerp06.jpg"
             },
             {
+              "tags": ["Print", "Brand"],
               "colspan": "col-span-4 col-start-2 md:col-span-5 md:col-start-7 xl:col-span-6",
               "type": "image",
               "style": "rounded-xl md:rounded-2xl",
@@ -362,6 +399,7 @@
         {
           "content": [
             {
+              "tags": ["Print", "Brand"],
               "colspan": "col-span-4 col-start-2 md:col-span-6 md:col-start-4",
               "type": "image",
               "style": "rounded-xl md:rounded-2xl",
@@ -372,6 +410,7 @@
         {
           "content": [
             {
+              "tags": ["Print", "Brand"],
               "colspan": "col-span-6 md:col-span-8 md:col-start-3",
               "type": "image",
               "style": "rounded-xl md:rounded-2xl",
@@ -382,6 +421,7 @@
         {
           "content": [
             {
+              "tags": ["Print", "Brand"],
               "colspan": "col-span-6 md:col-span-8 md:col-start-3",
               "type": "image",
               "style": "rounded-xl md:rounded-2xl",
@@ -392,6 +432,7 @@
         {
           "content": [
             {
+              "tags": ["Print", "Brand"],
               "colspan": "col-span-6 md:col-span-10 md:col-start-2 xl:col-span-12",
               "type": "image",
               "style": "rounded-xl md:rounded-2xl",
@@ -402,12 +443,14 @@
         {
           "content": [
             {
+              "tags": ["Print", "Brand"],
               "colspan": "col-span-4 col-start-2 md:col-span-5 md:col-start-2 xl:col-span-6",
               "type": "image",
               "style": "rounded-xl md:rounded-2xl",
               "src": "/indeed/4col-Bangalore01.jpg"
             },
             {
+              "tags": ["Print", "Brand"],
               "colspan": "col-span-4 col-start-2 md:col-span-5 md:col-start-7 xl:col-span-6",
               "type": "image",
               "style": "rounded-xl md:rounded-2xl",
@@ -419,11 +462,12 @@
     },
     {
       "title": "Fono Audio",
-      "tags": ["Social", "Print"],
+      "tags": ["Social", "Print", "Brand"],
       "rows": [
         {
           "content": [
             {
+              "tags": ["Brand"],
               "colspan": "col-span-6 md:col-span-10 md:col-start-2",
                 "type": "image",
               "style": "rounded-xl md:rounded-2xl",
@@ -434,6 +478,7 @@
         {
           "content": [
             {
+              "tags": ["Print"],
               "colspan": "col-span-6 md:col-start-4",
                 "type": "image",
               "style": "rounded-xl md:rounded-2xl border border-neutral-200 dark:border-0",
@@ -444,12 +489,14 @@
         {
           "content": [
             {
+              "tags": ["Social"],
               "colspan": "col-span-4 col-start-2 md:col-span-5 md:col-start-2",
               "type": "image",
               "style": "rounded-xl md:rounded-2xl",
               "src": "/fonoaudio/fonoOir.jpg"
             },
             {
+              "tags": ["Social"],
               "colspan": "col-span-4 col-start-2 md:col-span-5 md:col-start-7",
               "type": "image",
               "style": "rounded-xl md:rounded-2xl border dark:border-0 border-neutral-200",
@@ -460,6 +507,7 @@
         {
           "content": [
             {
+              "tags": ["Print"],
               "colspan": "col-span-6 md:col-start-4",
                 "type": "image",
               "style": "rounded-xl md:rounded-2xl border border-neutral-200 dark:border-0",
@@ -470,6 +518,7 @@
         {
           "content": [
             {
+              "tags": ["Brand"],
               "colspan": "col-span-4 col-start-2 md:col-span-6 md:col-start-4",
                 "type": "image",
               "style": "rounded-xl md:rounded-2xl w-full dark:border dark:border-neutral-400",
@@ -481,12 +530,13 @@
     },
     {
       "title": "Indeed Brand",
-      "tags": ["Print"],
+      "tags": ["Print", "Brand", "Email"],
       "rows": [
        
         {
           "content": [
             {
+              "tags": ["Print", "Brand"],
               "colspan": "col-span-6 md:col-span-10 md:col-start-2",
                 "type": "image",
               "style": "rounded-xl md:rounded-2xl",
@@ -497,6 +547,7 @@
         {
           "content": [
             {
+              "tags": ["Brand"],
               "colspan": "col-span-6 md:col-span-10 md:col-start-2",
                 "type": "image",
               "style": "rounded-xl md:rounded-2xl",
@@ -507,6 +558,7 @@
         {
           "content": [
             {
+              "tags": ["Email"],
               "colspan": "col-span-6 md:col-start-4",
                 "type": "image",
               "style": "rounded-2xl md:rounded-4xl border-6 border-black bg-black",
@@ -517,6 +569,7 @@
         {
           "content": [
             {
+              "tags": ["Brand", "Print"],
               "colspan": "col-span-6 md:col-span-10 md:col-start-2 xl:col-span-12",
                 "type": "image",
               "style": "",
@@ -527,6 +580,7 @@
         {
           "content": [
             {
+              "tags": ["Print", "Brand"],
               "colspan": "col-span-6 md:col-span-10 md:col-start-2 xl:col-span-12",
                 "type": "image",
               "style": "rounded-xl md:rounded-2xl",
@@ -537,18 +591,21 @@
         {
           "content": [
             {
+              "tags": ["Print", "Brand"],
               "colspan": "col-span-4 col-start-2 md:col-start-3 xl:col-start-1",
                 "type": "image",
               "style": "rounded-xl md:rounded-2xl",
               "src": "/indeedBrand/indeedBus02.jpg"
             },
             {
+              "tags": ["Print", "Brand"],
               "colspan": "col-span-6 md:hidden xl:block xl:col-span-4 xl:col-start-5",
                 "type": "image",
               "style": "rounded-xl md:rounded-2xl",
               "src": "/indeedBrand/indeedBus03.png"
             },
             {
+              "tags": ["Print", "Brand"],
               "colspan": "col-span-4 col-start-2 md:col-start-7 xl:col-start-9",
                 "type": "image",
               "style": "rounded-xl md:rounded-2xl",
@@ -559,6 +616,7 @@
         {
           "content": [
             {
+              "tags": ["Brand"],
               "colspan": "col-span-4 col-start-2 md:col-span-6 md:col-start-4",
                 "type": "image",
               "style": "rounded-xl md:rounded-2xl",

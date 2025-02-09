@@ -23,15 +23,21 @@ function Home({ selectedFilters }: Props) {
               key={rowIndex}
               className="grid grid-cols-6 md:grid-cols-12 gap-8 lg:gap-16"
             >
-              {row.content.map((item, itemIndex) => (
-                <Works
-                  key={itemIndex}
-                  colspan={item.colspan}
-                  type={item.type}
-                  src={item.src}
-                  style={item.style}
-                />
-              ))}
+              {row.content
+                .filter(
+                  (item) =>
+                    selectedFilters.includes("All") ||
+                    item.tags.some((tag) => selectedFilters.includes(tag))
+                )
+                .map((item, itemIndex) => (
+                  <Works
+                    key={itemIndex}
+                    colspan={item.colspan}
+                    type={item.type}
+                    src={item.src}
+                    style={item.style}
+                  />
+                ))}
             </div>
           ))}
         </div>

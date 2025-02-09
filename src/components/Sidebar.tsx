@@ -20,8 +20,9 @@ function Sidebar({
     "All",
     "Web",
     "Interface",
-    "Email",
+    "Brand",
     "Social",
+    "Email",
     "Motion",
     "Print",
   ];
