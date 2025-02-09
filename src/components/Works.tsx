@@ -17,6 +17,7 @@ function Works({ colspan, type, src, style }: Props) {
           autoPlay
           muted
           loop
+          playsInline
           className={`${style} h-auto w-full`}
         />
       )}
